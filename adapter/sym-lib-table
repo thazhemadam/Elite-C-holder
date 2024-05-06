@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "promicro")(type "Legacy")(uri "${KIPRJMOD}/../promicro.lib")(options "")(descr ""))
   (lib (name "vik")(type "KiCad")(uri "${KIPRJMOD}/libs/vik/kicad/vik.kicad_sym")(options "")(descr ""))
+  (lib (name "marbastlib-promicroish")(type "KiCad")(uri "${KIPRJMOD}/libs/marbastlib/symbols/marbastlib-promicroish.kicad_sym")(options "")(descr ""))
 )
