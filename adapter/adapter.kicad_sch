@@ -12,219 +12,7 @@
 		(comment 1 "Licensed under CERN-OHL-W v2")
 	)
 	(lib_symbols
-		(symbol "Connector:AudioJack4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack4"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 4 Poles (TRRS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack4_0_1"
-				(rectangle
-					(start -6.35 -5.08)
-					(end -7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -6.35 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack4_1_1"
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Conn_01x02_Female"
+		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -238,7 +26,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Female"
+			(property "Value" "Conn_01x02_Socket"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -264,13 +52,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -291,7 +87,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Female_1_1"
+			(symbol "Conn_01x02_Socket_1_1"
 				(arc
 					(start 0 -2.032)
 					(mid -0.5058 -2.54)
@@ -378,7 +174,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Female"
+		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -392,7 +188,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Female"
+			(property "Value" "Conn_01x03_Socket"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -418,13 +214,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -445,7 +249,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Female_1_1"
+			(symbol "Conn_01x03_Socket_1_1"
 				(arc
 					(start 0 -2.032)
 					(mid -0.5058 -2.54)
@@ -574,7 +378,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x04_Female"
+		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -588,7 +392,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Female"
+			(property "Value" "Conn_01x04_Socket"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -614,13 +418,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -641,7 +453,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_Female_1_1"
+			(symbol "Conn_01x04_Socket_1_1"
 				(arc
 					(start 0 -4.572)
 					(mid -0.5058 -5.08)
@@ -812,7 +624,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x05_Female"
+		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -826,7 +638,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_Female"
+			(property "Value" "Conn_01x05_Socket"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -852,13 +664,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -879,7 +699,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_Female_1_1"
+			(symbol "Conn_01x05_Socket_1_1"
 				(arc
 					(start 0 -4.572)
 					(mid -0.5058 -5.08)
@@ -1092,7 +912,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x06_Female"
+		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1106,7 +926,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Female"
+			(property "Value" "Conn_01x06_Socket"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1132,13 +952,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -1159,7 +987,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Female_1_1"
+			(symbol "Conn_01x06_Socket_1_1"
 				(arc
 					(start 0 -7.112)
 					(mid -0.5058 -7.62)
@@ -1405,6 +1233,218 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Audio:AudioJack4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack4"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 4 Poles (TRRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack4_0_1"
+				(rectangle
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack4_1_1"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5760,7 +5800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Female")
+		(lib_id "Connector:Conn_01x06_Socket")
 		(at 138.43 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5804,7 +5844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 138.43 107.95 0)
 			(effects
 				(font
@@ -6339,7 +6379,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Female")
+		(lib_id "Connector:Conn_01x02_Socket")
 		(at 201.93 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6383,7 +6423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 201.93 107.95 0)
 			(effects
 				(font
@@ -6408,7 +6448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Female")
+		(lib_id "Connector:Conn_01x05_Socket")
 		(at 181.61 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6452,7 +6492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 181.61 109.22 0)
 			(effects
 				(font
@@ -6684,7 +6724,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Female")
+		(lib_id "Connector:Conn_01x04_Socket")
 		(at 199.39 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6728,7 +6768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 199.39 132.08 0)
 			(effects
 				(font
@@ -7441,7 +7481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Female")
+		(lib_id "Connector:Conn_01x02_Socket")
 		(at 195.58 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7485,7 +7525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 195.58 38.1 0)
 			(effects
 				(font
@@ -7576,7 +7616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Female")
+		(lib_id "Connector:Conn_01x06_Socket")
 		(at 138.43 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7620,7 +7660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 138.43 133.35 0)
 			(effects
 				(font
@@ -7724,7 +7764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:AudioJack4")
+		(lib_id "Connector_Audio:AudioJack4")
 		(at 153.67 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7766,7 +7806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
 			(at 153.67 66.04 0)
 			(effects
 				(font
@@ -8355,7 +8395,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Female")
+		(lib_id "Connector:Conn_01x04_Socket")
 		(at 201.93 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8399,7 +8439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 201.93 67.31 0)
 			(effects
 				(font
@@ -8696,7 +8736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Female")
+		(lib_id "Connector:Conn_01x05_Socket")
 		(at 177.8 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8740,7 +8780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 177.8 38.1 0)
 			(effects
 				(font
@@ -9147,7 +9187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Female")
+		(lib_id "Connector:Conn_01x06_Socket")
 		(at 137.16 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9191,7 +9231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 137.16 38.1 0)
 			(effects
 				(font
@@ -9365,7 +9405,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:AudioJack4")
+		(lib_id "Connector_Audio:AudioJack4")
 		(at 151.13 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9407,7 +9447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
 			(at 151.13 132.08 0)
 			(effects
 				(font
@@ -9571,7 +9611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Female")
+		(lib_id "Connector:Conn_01x03_Socket")
 		(at 160.02 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9615,7 +9655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 160.02 39.37 0)
 			(effects
 				(font
@@ -9775,7 +9815,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Female")
+		(lib_id "Connector:Conn_01x03_Socket")
 		(at 162.56 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9819,7 +9859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 162.56 107.95 0)
 			(effects
 				(font
@@ -9847,7 +9887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Female")
+		(lib_id "Connector:Conn_01x06_Socket")
 		(at 138.43 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9891,7 +9931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x06, script generated"
 			(at 138.43 67.31 0)
 			(effects
 				(font
