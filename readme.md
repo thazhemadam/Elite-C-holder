@@ -2,7 +2,7 @@
 
 Universal holder PCB for RP2040 MCUs with a pro-micro footprint and nice!nanos.
 
-![holder](pics/2.png)
+![holder](assets/old.png)
 
 ## Optional features
 
