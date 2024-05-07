@@ -1,16 +1,14 @@
-## Holder PCB for the Elite-C
+# VIK MCU Holder
 
-Universal holder PCB for all Bastard Keyboards
+Universal holder PCB for RP2040 MCUs with a pro-micro footprint and nice!nanos.
 
 ![holder](pics/2.png)
-
 
 ## Optional features
 
 - handedness resistor: 5.1k on R6, use pin F1
 - I2C: install 4.7k resistors on R2 and R4
 - on/off switch: use MSK-12C01-07
-
 
 ## Forks
 
@@ -22,6 +20,6 @@ Universal holder PCB for all Bastard Keyboards
 
 [Nice!nano holder](https://github.com/victorlucachi/Elite-C-holder)
 
-# License 
+## License
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
