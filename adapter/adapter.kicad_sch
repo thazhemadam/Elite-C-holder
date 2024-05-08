@@ -1902,7 +1902,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_marbastlib-xp-promicroish:Elite-C_ACH"
+			(property "Footprint" "library:Dual-MCU-rp2040-nice-nano"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -7669,7 +7669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:Elite-C_ACH"
+		(property "Footprint" "library:Dual-MCU-rp2040-nice-nano"
 			(at 53.34 88.9 0)
 			(effects
 				(font
@@ -8335,7 +8335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:Elite-C_ACH"
+		(property "Footprint" "library:Dual-MCU-rp2040-nice-nano"
 			(at 53.34 158.75 0)
 			(effects
 				(font
