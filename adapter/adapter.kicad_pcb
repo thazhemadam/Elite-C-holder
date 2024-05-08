@@ -164,7 +164,7 @@
 	(net 50 "bat_sw_r")
 	(net 51 "unconnected-(SW3-Pad1)")
 	(net 52 "unconnected-(SW4-Pad1)")
-	(footprint "Library:5_PinHeader"
+	(footprint "library:5_PinHeader"
 		(layer "F.Cu")
 		(uuid "0b9dfbfe-1e19-4396-b6a1-78bceb1cec64")
 		(at 127.832542 102.8)
@@ -424,7 +424,7 @@
 			)
 		)
 	)
-	(footprint "Library:6_PinHeader"
+	(footprint "library:6_PinHeader"
 		(layer "F.Cu")
 		(uuid "31a2ebc5-5e48-4c9f-8faf-f8514423da76")
 		(at 177.847199 102.799999)
@@ -695,7 +695,7 @@
 			)
 		)
 	)
-	(footprint "Library:header1x03"
+	(footprint "library:header1x03"
 		(layer "F.Cu")
 		(uuid "34470289-4440-4673-9391-29f3b63c9d4e")
 		(at 121.17 92.895)
@@ -979,7 +979,7 @@
 			(uuid "9fdfe534-dd4c-4dc0-a45d-f02b0ec71440")
 		)
 	)
-	(footprint "Library:header1x03"
+	(footprint "library:header1x03"
 		(layer "F.Cu")
 		(uuid "40925187-d3e4-499f-b309-f2328a77e7d9")
 		(at 189.27 92.82)
@@ -1418,7 +1418,7 @@
 			(uuid "e762fafd-aba3-4f95-8923-69fc7014c1b7")
 		)
 	)
-	(footprint "Library:MountingHole_4mm_Pad_thin"
+	(footprint "library:MountingHole_4mm_Pad_thin"
 		(layer "F.Cu")
 		(uuid "47a35921-d24d-4485-9108-eed5a848a207")
 		(at 198.103921 99.08266)
@@ -1654,7 +1654,7 @@
 			(uuid "d5926ae5-e972-4dcc-8335-d8bd16db6dbc")
 		)
 	)
-	(footprint "Library:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "library:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4d609e7c-74c9-4ae9-a26d-946ff00c167d")
 		(at 194 81.95)
@@ -2013,7 +2013,7 @@
 			(uuid "0afa5357-c57e-42cd-b476-72d99f39fe9f")
 		)
 	)
-	(footprint "Library:5_PinHeader"
+	(footprint "library:5_PinHeader"
 		(layer "F.Cu")
 		(uuid "608b1311-8621-40a7-be19-36f27fed020a")
 		(at 182.780541 102.779999)
@@ -2273,7 +2273,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_1206_handsolder"
+	(footprint "library:R_1206_handsolder"
 		(layer "F.Cu")
 		(uuid "62832516-11f1-4f5c-b685-8f41c44bdcd7")
 		(at 121.45 79.92)
@@ -2602,7 +2602,7 @@
 			(uuid "5e143ef0-b7d9-4f59-ad7e-e64da490c5f5")
 		)
 	)
-	(footprint "Library:R_1206_handsolder"
+	(footprint "library:R_1206_handsolder"
 		(layer "F.Cu")
 		(uuid "7bde4c0c-12a1-4940-a56d-6143e0d34a0a")
 		(at 123 85.75 -90)
@@ -2827,7 +2827,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x02_P2.54mm_Vertical"
+	(footprint "library:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "83ff02d1-cf8e-41d2-8db7-1ae1a5d3926d")
 		(at 187.706 71.805)
@@ -3019,7 +3019,7 @@
 			(uuid "7692ee07-50b5-4b2d-ac83-6a9893c4adbf")
 		)
 	)
-	(footprint "Library:R_1206_handsolder"
+	(footprint "library:R_1206_handsolder"
 		(layer "F.Cu")
 		(uuid "85871b25-70ab-4ad2-8c85-6c9ce612c469")
 		(at 191 85.75 -90)
@@ -3244,7 +3244,7 @@
 			)
 		)
 	)
-	(footprint "Library:MountingHole_4mm_Pad_thin"
+	(footprint "library:MountingHole_4mm_Pad_thin"
 		(layer "F.Cu")
 		(uuid "86877f97-9a80-4197-bdcf-08dc5ade3380")
 		(at 112.76262 99.18266)
@@ -3488,7 +3488,7 @@
 			(uuid "79977da0-fdcb-4922-8297-b08770982ade")
 		)
 	)
-	(footprint "Library:6_PinHeader"
+	(footprint "library:6_PinHeader"
 		(layer "F.Cu")
 		(uuid "971da4aa-7a1c-47f1-a56d-06807cbf9be9")
 		(at 121.15 102.819999)
@@ -3759,7 +3759,7 @@
 			)
 		)
 	)
-	(footprint "Library:MountingHole_4mm_Pad_thin"
+	(footprint "library:MountingHole_4mm_Pad_thin"
 		(layer "F.Cu")
 		(uuid "98a7e9b3-75bb-4d51-88b0-9a1529160ed1")
 		(at 147.33762 71.28266)
@@ -4256,7 +4256,7 @@
 			(uuid "eecc54f1-353d-4bbc-bb3a-293df7de7d03")
 		)
 	)
-	(footprint "Library:PinHeader_1x02_P2.54mm_Vertical"
+	(footprint "library:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b9beff88-d2b0-4517-84f2-1aecdb199fc3")
 		(at 123.3 71.815)
@@ -4541,7 +4541,7 @@
 			(uuid "a8d3af71-cd43-4ce7-9bc6-68945e3354d5")
 		)
 	)
-	(footprint "Library:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "library:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c19dbe3c-ced0-48f7-a91d-777569cfb936")
 		(at 117.25 81.95)
@@ -5153,7 +5153,7 @@
 			(uuid "ec7a7d72-678f-4bfb-a06b-17a4d013c413")
 		)
 	)
-	(footprint "Library:R_1206_handsolder"
+	(footprint "library:R_1206_handsolder"
 		(layer "F.Cu")
 		(uuid "cfed5c4e-149f-45c5-874a-d4efe242083a")
 		(at 189.93 79.97)
@@ -5378,7 +5378,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_1206_handsolder"
+	(footprint "library:R_1206_handsolder"
 		(layer "F.Cu")
 		(uuid "d2578bf7-fda5-4298-b8fe-ab8a9a4c3292")
 		(at 120.25 85.75 -90)
@@ -5603,7 +5603,7 @@
 			)
 		)
 	)
-	(footprint "Library:MountingHole_4mm_Pad_thin"
+	(footprint "library:MountingHole_4mm_Pad_thin"
 		(layer "F.Cu")
 		(uuid "d87527bd-6b42-40f2-ad7e-852c3e75fc72")
 		(at 163.603921 71.33266)
@@ -5971,7 +5971,7 @@
 			(uuid "32266c15-d8f7-4e2e-9931-8e29eb2c9de9")
 		)
 	)
-	(footprint "Library:R_1206_handsolder"
+	(footprint "library:R_1206_handsolder"
 		(layer "F.Cu")
 		(uuid "edf8867f-e7f8-4a47-b988-ae7bd03e64b7")
 		(at 188.21 85.75 -90)
@@ -6196,7 +6196,7 @@
 			)
 		)
 	)
-	(footprint "Library:6_PinHeader"
+	(footprint "library:6_PinHeader"
 		(layer "F.Cu")
 		(uuid "f352e561-93ae-4eda-af14-a930a36aa74a")
 		(at 189.337689 102.799999)
@@ -6467,7 +6467,7 @@
 			)
 		)
 	)
-	(footprint "Library:6_PinHeader"
+	(footprint "library:6_PinHeader"
 		(layer "F.Cu")
 		(uuid "ff1f874f-92dd-4417-98ba-01533012ca7a")
 		(at 132.689684 102.819999)
@@ -7013,7 +7013,7 @@
 			(uuid "caf8b910-d469-46e1-a97d-18ade03563d9")
 		)
 	)
-	(footprint "Library:power_switch_jumper"
+	(footprint "library:power_switch_jumper"
 		(layer "B.Cu")
 		(uuid "1aed41db-dfd3-4b90-b7a1-5c94e9557cf1")
 		(at 135.0825 76.7 90)
@@ -7114,7 +7114,7 @@
 			)
 		)
 	)
-	(footprint "Library:SW_SPDT+H-MSK12C01_hor(7pin_SMD)"
+	(footprint "library:SW_SPDT+H-MSK12C01_hor(7pin_SMD)"
 		(layer "B.Cu")
 		(uuid "22d9cb2d-0146-4cda-abbe-b730dbd0734e")
 		(at 177.62 74.65)
@@ -7335,7 +7335,7 @@
 			)
 		)
 	)
-	(footprint "Library:power_switch_jumper"
+	(footprint "library:power_switch_jumper"
 		(layer "B.Cu")
 		(uuid "23c5fcb5-a572-46db-aab8-bbc19461dd13")
 		(at 179.1825 76.7 90)
@@ -7569,7 +7569,7 @@
 			(uuid "e68b3990-8a6b-4790-8c1b-dace56445be7")
 		)
 	)
-	(footprint "Library:Elite-C"
+	(footprint "library:Elite-C"
 		(layer "B.Cu")
 		(uuid "39b32332-d6eb-4066-9c5a-784c77cb509f")
 		(at 177.62 83.15 -90)
@@ -8100,7 +8100,7 @@
 			(uuid "58eb1f49-1e5e-4c0c-97da-fb971f13fe25")
 		)
 	)
-	(footprint "Library:Jack_3.5mm_PJ320E_Horizontal"
+	(footprint "library:Jack_3.5mm_PJ320E_Horizontal"
 		(layer "B.Cu")
 		(uuid "4f2809c2-c0f8-40f5-b0d7-2ac6e3861ce9")
 		(at 195.898921 75.55266 180)
@@ -8487,7 +8487,7 @@
 			)
 		)
 	)
-	(footprint "Library:PushSwitch"
+	(footprint "library:PushSwitch"
 		(layer "B.Cu")
 		(uuid "53e74f95-68e5-4cfd-b897-af29f5d856f3")
 		(at 178.6 89.5 -90)
@@ -9409,7 +9409,7 @@
 			(uuid "2d665c4d-1437-426f-b9cd-c53451fe5b1a")
 		)
 	)
-	(footprint "Library:PushSwitch"
+	(footprint "library:PushSwitch"
 		(layer "B.Cu")
 		(uuid "b992e626-7505-46ee-bb64-54b49556324d")
 		(at 132.9 89.3 -90)
@@ -9590,7 +9590,7 @@
 			)
 		)
 	)
-	(footprint "Library:Elite-C"
+	(footprint "library:Elite-C"
 		(layer "B.Cu")
 		(uuid "c04eca05-a0f9-4bc2-a3af-c428ab1358bc")
 		(at 133.56 83.17 -90)
@@ -9997,7 +9997,7 @@
 			)
 		)
 	)
-	(footprint "Library:Jack_3.5mm_PJ320E_Horizontal"
+	(footprint "library:Jack_3.5mm_PJ320E_Horizontal"
 		(layer "B.Cu")
 		(uuid "c5c961c3-ba6f-4f99-836f-bb3d3498ffc1")
 		(at 120.45262 75.42766 180)
@@ -11104,7 +11104,7 @@
 			(uuid "4d55ddc7-73be-49f7-98ea-a0ba474cbdb0")
 		)
 	)
-	(footprint "Library:SW_SPDT+H-MSK12C01_hor(7pin_SMD)"
+	(footprint "library:SW_SPDT+H-MSK12C01_hor(7pin_SMD)"
 		(layer "B.Cu")
 		(uuid "d4839c2b-a8ac-4cb1-92a9-e61030bbd675")
 		(at 133.56 74.67)
