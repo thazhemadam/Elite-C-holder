@@ -7,7 +7,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 22.86 0)
+			(at 0 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "Dual MCU: RP2040 + nice!nano"
-			(at 0 20.32 0)
+			(at 0 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -585,6 +585,15 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(text "Pin Naming Conventions:\n* The pins have primarily been named following the Splinky's and nice!nano pinout.\n* An \"X/Y\" pin label represents \"X\" pin on the Splinky and \"Y\" pin on the nice!nano.\n* An \"Z-X|Y/Z\" pin label represents \"Z-X\" pin on the Splinky and \"Z-Y/Z\" pin on the nice!nano.\n\nPin Availability:\n* Pins 28, 29 are NOT available on RP2040 Pro-Micros, e.g., Splinky/Svlinky."
+				(at -40.894 -43.688 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 		)
