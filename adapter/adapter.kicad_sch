@@ -4759,7 +4759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "library:6_PinHeader"
+		(property "Footprint" "vik:vik-keyboard-connector-horizontal"
 			(at 245.11 44.45 0)
 			(effects
 				(font
