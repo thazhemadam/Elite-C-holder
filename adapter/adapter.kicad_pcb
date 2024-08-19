@@ -1807,7 +1807,7 @@
 	(footprint "library:R_1206_handsolder"
 		(layer "F.Cu")
 		(uuid "62832516-11f1-4f5c-b685-8f41c44bdcd7")
-		(at 125.617458 79.92)
+		(at 125.617458 81.915)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
@@ -3505,7 +3505,7 @@
 	(footprint "library:Jack_3.5mm_PJ320E_Horizontal"
 		(layer "B.Cu")
 		(uuid "c5c961c3-ba6f-4f99-836f-bb3d3498ffc1")
-		(at 124.620078 75.42766 180)
+		(at 124.620078 77.42266 180)
 		(descr "Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320E-177.html)")
 		(tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
 		(property "Reference" "J1"
