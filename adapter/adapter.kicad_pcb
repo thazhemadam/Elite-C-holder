@@ -1179,6 +1179,17 @@
 				"d27c0cf3-b9a7-4b3a-be89-2284137f1ef0"
 			)
 		)
+		(model "${KIPRJMOD}/libs/holder/3dmodels/splinky-headers.step"
+			(offset
+				(xyz 0 12.6 4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 180 0)
+			)
+		)
 	)
 	(footprint "library:header1x03"
 		(layer "F.Cu")
