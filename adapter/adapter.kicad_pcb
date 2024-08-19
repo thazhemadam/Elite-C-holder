@@ -2879,6 +2879,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4082,15 +4083,15 @@
 			(pintype "passive")
 			(uuid "3ec5974c-2d4e-4869-8aee-98df81030472")
 		)
-		(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_PJ320E_Horizontal.wrl"
+		(model "${KIPRJMOD}/libs/holder/3dmodels/3.5mm-Audio-Jack-PJ320A.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.6 5.1 10.35)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 180 0 90)
 			)
 		)
 	)
