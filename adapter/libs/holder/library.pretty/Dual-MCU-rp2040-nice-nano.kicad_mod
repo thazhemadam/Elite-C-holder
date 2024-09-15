@@ -512,7 +512,7 @@
 		(at 4.54 12.15)
 		(size 1.8 1.8)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
 		(uuid "a400274c-96a2-441a-8051-bfb260af0e9b")
 	)
@@ -536,7 +536,7 @@
 		(at 2 12.15)
 		(size 1.8 1.8)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
 		(uuid "468d2f99-8587-4056-80f3-bf26774b8cc7")
 	)
@@ -560,7 +560,7 @@
 		(at -0.54 12.15)
 		(size 1.8 1.8)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
 		(uuid "44ff4e8b-e896-49e4-b4b5-90da350af31a")
 	)
@@ -649,16 +649,16 @@
 			"fb8b3bd4-d03f-49a3-addd-005a2b3dd949"
 		)
 	)
-	(group "nice!nano"
-		(uuid "c0efeb30-d9de-42a3-8ba1-180482d3161e")
-		(members "96c4ea99-3bf0-4a1b-b1ea-04d34f30b934" "eab96a20-b0d2-432e-b89a-fbc68dbbbe24"
-			"f248cb78-2442-402c-bdd5-ee553f0fbeb1"
-		)
-	)
 	(group "Supermini nrf52840"
 		(uuid "919817b1-a64c-41be-84a1-286d3df99c73")
 		(members "44ff4e8b-e896-49e4-b4b5-90da350af31a" "468d2f99-8587-4056-80f3-bf26774b8cc7"
 			"a400274c-96a2-441a-8051-bfb260af0e9b"
+		)
+	)
+	(group "nice!nano"
+		(uuid "c0efeb30-d9de-42a3-8ba1-180482d3161e")
+		(members "96c4ea99-3bf0-4a1b-b1ea-04d34f30b934" "eab96a20-b0d2-432e-b89a-fbc68dbbbe24"
+			"f248cb78-2442-402c-bdd5-ee553f0fbeb1"
 		)
 	)
 )
