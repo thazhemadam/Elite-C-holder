@@ -661,4 +661,15 @@
 			"f248cb78-2442-402c-bdd5-ee553f0fbeb1"
 		)
 	)
+	(model "${KIPRJMOD}/libs/holder/3dmodels/splinky-headers.step"
+		(offset
+			(xyz 0 12.6 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
 )
