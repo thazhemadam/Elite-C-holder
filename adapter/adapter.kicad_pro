@@ -522,6 +522,18 @@
       {
         "netclass": "THICC",
         "pattern": "GND"
+      },
+      {
+        "netclass": "THICC",
+        "pattern": "B+_*"
+      },
+      {
+        "netclass": "THICC",
+        "pattern": "BAT_OR_5V_*"
+      },
+      {
+        "netclass": "THICC",
+        "pattern": "BAT_sw_*"
       }
     ]
   },
