@@ -4894,6 +4894,12 @@
 		(uuid "004bf5c9-6c44-4a91-92e9-d5d3ab321d7d")
 	)
 	(junction
+		(at 269.24 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b20ffb2-4756-437b-88a6-c72ce90d5beb")
+	)
+	(junction
 		(at 83.82 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4912,10 +4918,46 @@
 		(uuid "1b51c3fa-5ca8-4f91-ab20-33bc6e965f87")
 	)
 	(junction
+		(at 359.41 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b0c9078-2025-43cb-bbdc-42e3c48a28f6")
+	)
+	(junction
+		(at 359.41 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b98c3e5-eb64-4c2e-b669-1b3414cf7018")
+	)
+	(junction
+		(at 288.29 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bb9e738-5f4b-464e-8575-69bb90c817c1")
+	)
+	(junction
 		(at 157.48 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "585c0d52-6e2a-42fd-b93a-8ea0baf3df36")
+	)
+	(junction
+		(at 361.95 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82e8dfb8-0867-40bf-a281-b4b8154bd46a")
+	)
+	(junction
+		(at 252.73 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf69f41-7204-4004-9519-41f7d9386db5")
+	)
+	(junction
+		(at 293.37 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc67205d-5e4f-4300-8c0e-6a44d9ccc8d6")
 	)
 	(junction
 		(at 154.94 139.7)
@@ -4935,9 +4977,59 @@
 		(color 0 0 0 0)
 		(uuid "e0c529fa-d71b-4f33-ad09-83213446aae0")
 	)
+	(junction
+		(at 361.95 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6cd640a-ec5e-45d1-a29b-7da02483dd1d")
+	)
 	(no_connect
 		(at 157.48 53.34)
 		(uuid "528d215f-b631-4ac9-809a-8a08684f3e3b")
+	)
+	(no_connect
+		(at 361.95 53.34)
+		(uuid "ffcb97c9-3838-4b9f-9abd-091dbd0514e2")
+	)
+	(wire
+		(pts
+			(xy 274.32 161.29) (xy 269.24 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f2af4a-29b5-44d6-9e66-39181d682d67")
+	)
+	(wire
+		(pts
+			(xy 288.29 147.32) (xy 288.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0121908f-12fb-4b71-b72c-f73610ff623a")
+	)
+	(wire
+		(pts
+			(xy 307.34 50.8) (xy 304.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01435a70-e56c-4514-9a87-9c4b2334f326")
+	)
+	(polyline
+		(pts
+			(xy 383.54 35.56) (xy 383.54 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01851745-4118-45b6-8ee4-5e0d39a176bf")
 	)
 	(polyline
 		(pts
@@ -4999,6 +5091,16 @@
 		)
 		(uuid "05c2b4ba-08c7-4d47-8f17-934e139b512e")
 	)
+	(polyline
+		(pts
+			(xy 217.17 12.7) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ee3c8a-5c54-4cd6-9e95-8a1ad0f1a319")
+	)
 	(wire
 		(pts
 			(xy 128.27 210.82) (xy 153.67 210.82)
@@ -5029,6 +5131,16 @@
 		)
 		(uuid "08f6935d-2c1a-4b8e-9211-878a7723cf44")
 	)
+	(wire
+		(pts
+			(xy 307.34 53.34) (xy 304.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092449bf-2fe0-4ad1-9aa3-3c1043a4a646")
+	)
 	(polyline
 		(pts
 			(xy 140.97 215.9) (xy 140.97 231.14)
@@ -5038,6 +5150,16 @@
 			(type default)
 		)
 		(uuid "0a1fa249-b0aa-4ec0-a26f-03741263d469")
+	)
+	(wire
+		(pts
+			(xy 279.4 152.4) (xy 288.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6a4d3a-881e-4e7f-b626-d6406819ca68")
 	)
 	(wire
 		(pts
@@ -5071,6 +5193,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 154.94) (xy 254 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1083950c-0ffd-4a63-a695-c3c7554b769e")
+	)
+	(wire
+		(pts
 			(xy 29.21 138.43) (xy 30.48 138.43)
 		)
 		(stroke
@@ -5078,6 +5210,16 @@
 			(type default)
 		)
 		(uuid "10eec697-e35b-489c-a25e-865beac22b53")
+	)
+	(wire
+		(pts
+			(xy 250.19 149.86) (xy 250.19 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1179a26a-f72c-4607-8a85-6b3e8fe3573a")
 	)
 	(polyline
 		(pts
@@ -5098,6 +5240,26 @@
 			(type default)
 		)
 		(uuid "12ad0e68-bf79-4730-b046-266907854471")
+	)
+	(polyline
+		(pts
+			(xy 328.93 12.7) (xy 328.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135985e2-a931-41c4-9b89-6524810fc358")
+	)
+	(wire
+		(pts
+			(xy 370.84 147.32) (xy 370.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13dafd48-7326-486b-ab07-90bc4c45505b")
 	)
 	(wire
 		(pts
@@ -5129,6 +5291,26 @@
 		)
 		(uuid "16f06c3e-aa96-45ae-b4fe-62d1192848c1")
 	)
+	(wire
+		(pts
+			(xy 252.73 138.43) (xy 252.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d1c24f-9ad9-4434-b370-afba97e2840d")
+	)
+	(wire
+		(pts
+			(xy 379.73 125.73) (xy 361.95 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1967d453-90e2-4fdf-a542-734ab110017a")
+	)
 	(polyline
 		(pts
 			(xy 97.79 245.11) (xy 179.07 245.11)
@@ -5139,6 +5321,36 @@
 		)
 		(uuid "1c07890c-75ec-4ca2-909b-079f2e77f737")
 	)
+	(polyline
+		(pts
+			(xy 331.47 116.84) (xy 383.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5a4dfd-c712-4eeb-ac08-23c66a463eef")
+	)
+	(polyline
+		(pts
+			(xy 331.47 179.07) (xy 331.47 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec40f81-270c-4290-b5c5-8631cebe217d")
+	)
+	(bus
+		(pts
+			(xy 217.17 182.88) (xy 217.17 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9008af-a23a-4fa0-83e2-8c9490e6bb70")
+	)
 	(wire
 		(pts
 			(xy 142.24 139.7) (xy 154.94 139.7)
@@ -5148,6 +5360,16 @@
 			(type default)
 		)
 		(uuid "224318af-669a-4f0d-8e7e-ed649c041411")
+	)
+	(wire
+		(pts
+			(xy 233.68 138.43) (xy 234.95 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ae6f42-cd2e-4ca1-a316-45893e4b5207")
 	)
 	(polyline
 		(pts
@@ -5161,6 +5383,26 @@
 	)
 	(polyline
 		(pts
+			(xy 331.47 165.1) (xy 331.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26afab35-ab9d-43a8-948a-64de02e18ecc")
+	)
+	(bus
+		(pts
+			(xy 217.17 283.21) (xy 297.18 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283b8af8-b5d4-4150-92a5-f90baa5fbba3")
+	)
+	(polyline
+		(pts
 			(xy 124.46 179.07) (xy 124.46 153.67)
 		)
 		(stroke
@@ -5168,6 +5410,16 @@
 			(type default)
 		)
 		(uuid "2a199981-478c-440e-92f1-f952c42f4be9")
+	)
+	(polyline
+		(pts
+			(xy 302.26 182.88) (xy 309.88 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9d7b27-8269-4c53-918c-e14b09f98dc6")
 	)
 	(wire
 		(pts
@@ -5189,6 +5441,26 @@
 		)
 		(uuid "2adcf330-5f1a-44b3-ac20-983c46d74e38")
 	)
+	(polyline
+		(pts
+			(xy 217.17 109.22) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2410e9-fa56-4ea9-ba77-842c2f0869f9")
+	)
+	(wire
+		(pts
+			(xy 293.37 153.67) (xy 293.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5dd864-f114-412c-9506-55e99d2ddd14")
+	)
 	(wire
 		(pts
 			(xy 49.53 154.94) (xy 49.53 156.21)
@@ -5198,6 +5470,36 @@
 			(type default)
 		)
 		(uuid "2ee78b79-5faa-4d5c-b745-06436694a8cc")
+	)
+	(wire
+		(pts
+			(xy 269.24 161.29) (xy 269.24 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3a193d-6ec2-4ff7-8377-cb3522c8fb5e")
+	)
+	(wire
+		(pts
+			(xy 255.27 274.32) (xy 257.81 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3036c465-38fd-446d-8129-e9dcc8367390")
+	)
+	(wire
+		(pts
+			(xy 370.84 134.62) (xy 370.84 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312d9ff4-3d32-4b70-8cb4-6b04d9f45870")
 	)
 	(wire
 		(pts
@@ -5211,6 +5513,46 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 170.18) (xy 288.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b03cc7-b5c7-474f-945e-b52816b7f04b")
+	)
+	(wire
+		(pts
+			(xy 332.74 210.82) (xy 358.14 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347923aa-686c-4a09-8ce3-0cf032b425bb")
+	)
+	(polyline
+		(pts
+			(xy 309.88 182.88) (xy 381 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b3e8d9-d590-4f29-8c4f-c1c11275f719")
+	)
+	(polyline
+		(pts
+			(xy 383.54 120.65) (xy 383.54 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f60213-833c-4fa9-abe8-d51dc6b1b7ca")
+	)
+	(wire
+		(pts
 			(xy 102.87 60.96) (xy 100.33 60.96)
 		)
 		(stroke
@@ -5218,6 +5560,16 @@
 			(type default)
 		)
 		(uuid "35b7faf2-d9c8-4c38-a096-2edcfa496da0")
+	)
+	(wire
+		(pts
+			(xy 252.73 138.43) (xy 276.86 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e12f03-0f0f-47d4-8485-6022dedc87d9")
 	)
 	(wire
 		(pts
@@ -5239,6 +5591,36 @@
 		)
 		(uuid "3fc169cc-3178-47be-9f16-ea3e1cba82cb")
 	)
+	(polyline
+		(pts
+			(xy 217.17 113.03) (xy 217.17 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff6a268-8149-4c42-97fd-5531d3151bc6")
+	)
+	(wire
+		(pts
+			(xy 307.34 68.58) (xy 304.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4089f97f-b47a-4962-baf8-9afa34faa20a")
+	)
+	(wire
+		(pts
+			(xy 307.34 55.88) (xy 304.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408e2195-0986-4a5e-8bee-f34c513cf74b")
+	)
 	(wire
 		(pts
 			(xy 128.27 226.06) (xy 153.67 226.06)
@@ -5248,6 +5630,16 @@
 			(type default)
 		)
 		(uuid "40eb5d86-48d3-4051-8f04-76344fd1e2bb")
+	)
+	(wire
+		(pts
+			(xy 359.41 134.62) (xy 359.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41941294-1914-49f5-a4dd-ee72c38a016d")
 	)
 	(polyline
 		(pts
@@ -5279,6 +5671,16 @@
 		)
 		(uuid "461579f3-8a32-41a0-b095-afe31b0f3e19")
 	)
+	(polyline
+		(pts
+			(xy 331.47 35.56) (xy 339.09 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e52f6d-3608-49bc-86c0-094112a263a3")
+	)
 	(wire
 		(pts
 			(xy 157.48 142.24) (xy 157.48 156.21)
@@ -5288,6 +5690,16 @@
 			(type default)
 		)
 		(uuid "47ebb81b-b9d3-4e14-b244-d8b1dcb573fe")
+	)
+	(polyline
+		(pts
+			(xy 383.54 38.1) (xy 383.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc0d24b-a0a8-4d49-9250-a5a5f8824d64")
 	)
 	(wire
 		(pts
@@ -5319,6 +5731,16 @@
 		)
 		(uuid "5347cfe4-2664-4ae3-92de-22210dad6a4f")
 	)
+	(bus
+		(pts
+			(xy 297.18 283.21) (xy 297.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537daf6b-b2b0-482a-9e07-da97d896299a")
+	)
 	(polyline
 		(pts
 			(xy 97.79 182.88) (xy 97.79 245.11)
@@ -5341,6 +5763,26 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 58.42) (xy 304.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9f9af9-01a2-4039-98b3-69ac42649f76")
+	)
+	(wire
+		(pts
+			(xy 379.73 139.7) (xy 375.92 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af5770a-2984-41b0-91a6-dfbdda3ac83f")
+	)
+	(wire
+		(pts
 			(xy 143.51 213.36) (xy 153.67 213.36)
 		)
 		(stroke
@@ -5348,6 +5790,16 @@
 			(type default)
 		)
 		(uuid "5e7c4e4c-9313-42b4-91fc-1fa1fcafc7a9")
+	)
+	(polyline
+		(pts
+			(xy 328.93 109.22) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f019015-57bc-4e25-9c1a-855b4415b0dc")
 	)
 	(bus
 		(pts
@@ -5371,6 +5823,26 @@
 	)
 	(polyline
 		(pts
+			(xy 383.54 12.7) (xy 383.54 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629dfe6e-af08-4ae9-b830-8f088e447f18")
+	)
+	(wire
+		(pts
+			(xy 332.74 226.06) (xy 358.14 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633746ba-ad79-4f2e-92ed-294e69c44384")
+	)
+	(polyline
+		(pts
 			(xy 12.7 12.7) (xy 12.7 109.22)
 		)
 		(stroke
@@ -5378,6 +5850,56 @@
 			(type default)
 		)
 		(uuid "63751120-227b-4e36-ae49-f98083b85066")
+	)
+	(wire
+		(pts
+			(xy 332.74 213.36) (xy 340.36 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b1cab2-8eca-42bf-bca9-3e6f6f2e9609")
+	)
+	(wire
+		(pts
+			(xy 359.41 139.7) (xy 361.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65148d04-cc56-445b-9b04-c46067deaa0b")
+	)
+	(wire
+		(pts
+			(xy 307.34 43.18) (xy 304.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670616f4-80cf-41a8-a074-97fc90a9d443")
+	)
+	(wire
+		(pts
+			(xy 307.34 40.64) (xy 304.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681c1bc7-79d2-4001-947f-1f26705b3f13")
+	)
+	(wire
+		(pts
+			(xy 332.74 215.9) (xy 358.14 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c356d4-03f5-4fa3-83af-302a4416778c")
 	)
 	(polyline
 		(pts
@@ -5419,6 +5941,16 @@
 		)
 		(uuid "6cf04274-babb-4028-9ba7-e6cc336fefeb")
 	)
+	(wire
+		(pts
+			(xy 332.74 198.12) (xy 358.14 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d434882-65ba-4b51-ae28-f4ca56daf5f3")
+	)
 	(polyline
 		(pts
 			(xy 179.07 35.56) (xy 179.07 35.56)
@@ -5428,6 +5960,26 @@
 			(type default)
 		)
 		(uuid "6fe7113e-6b85-47cc-8a3d-9ceca8b64761")
+	)
+	(wire
+		(pts
+			(xy 269.24 160.02) (xy 269.24 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706b3d09-ad24-48b5-8e14-3f2a4c9c7fff")
+	)
+	(wire
+		(pts
+			(xy 332.74 203.2) (xy 358.14 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d39e2e-3883-4f42-90de-b3ebdddb4f98")
 	)
 	(polyline
 		(pts
@@ -5519,6 +6071,16 @@
 		)
 		(uuid "7a67b497-8623-4005-81b5-7853998e5880")
 	)
+	(wire
+		(pts
+			(xy 307.34 48.26) (xy 304.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b21d43a-593b-4779-a8d6-42beaed8a3f4")
+	)
 	(polyline
 		(pts
 			(xy 127 12.7) (xy 128.27 12.7)
@@ -5551,6 +6113,36 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 213.36) (xy 358.14 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf472fc-6211-433c-8c09-824b11650a26")
+	)
+	(bus
+		(pts
+			(xy 383.54 66.04) (xy 383.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1b773d-0087-4ef8-87d5-8fc6de9cb936")
+	)
+	(wire
+		(pts
+			(xy 307.34 60.96) (xy 304.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5f396f-2bde-40e5-bae0-5ec09fa6bc15")
+	)
+	(wire
+		(pts
 			(xy 48.26 138.43) (xy 48.26 139.7)
 		)
 		(stroke
@@ -5558,6 +6150,26 @@
 			(type default)
 		)
 		(uuid "7f21d5a7-a66f-4d82-b6d5-8d56453d69dc")
+	)
+	(polyline
+		(pts
+			(xy 339.09 35.56) (xy 383.54 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a2d83b-c2a2-4015-b0f8-18df3667606d")
+	)
+	(polyline
+		(pts
+			(xy 328.93 113.03) (xy 217.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812d051f-bc1b-4f07-9dcb-b32276ec2995")
 	)
 	(wire
 		(pts
@@ -5579,6 +6191,16 @@
 		)
 		(uuid "84e624be-3b90-40e8-bc56-f37dad4c8873")
 	)
+	(polyline
+		(pts
+			(xy 331.47 63.5) (xy 331.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854889a8-c0b6-4aea-8989-d95afbc1b56b")
+	)
 	(wire
 		(pts
 			(xy 128.27 223.52) (xy 153.67 223.52)
@@ -5598,6 +6220,16 @@
 			(type default)
 		)
 		(uuid "860fbdbf-6521-4a0e-894a-242a210d089f")
+	)
+	(polyline
+		(pts
+			(xy 331.47 168.91) (xy 383.54 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862348e4-23c3-483d-844d-0a7d7c8cf1cb")
 	)
 	(wire
 		(pts
@@ -5619,6 +6251,36 @@
 		)
 		(uuid "87f48663-c786-4bee-a589-0dbf8639fa2f")
 	)
+	(polyline
+		(pts
+			(xy 331.47 179.07) (xy 383.54 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8826d5af-77e7-4e50-8301-dec05ab500b0")
+	)
+	(wire
+		(pts
+			(xy 365.76 142.24) (xy 361.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886fef21-59c6-4ad6-b256-b843a9ad128b")
+	)
+	(bus
+		(pts
+			(xy 217.17 182.88) (xy 297.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6ec33f-6f0e-428a-ac68-26f069559ff8")
+	)
 	(wire
 		(pts
 			(xy 45.72 149.86) (xy 54.61 149.86)
@@ -5628,6 +6290,16 @@
 			(type default)
 		)
 		(uuid "8f395677-60e3-497e-9f71-22b50fe9e087")
+	)
+	(polyline
+		(pts
+			(xy 328.93 113.03) (xy 328.93 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902fa32c-a0a4-4767-ae80-8091379d45f4")
 	)
 	(wire
 		(pts
@@ -5661,6 +6333,96 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 170.18) (xy 288.29 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "946c0277-e945-4fec-b183-cab9c266c72a")
+	)
+	(wire
+		(pts
+			(xy 379.73 142.24) (xy 375.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948087d3-6ed9-4127-91c6-7bfde5592b02")
+	)
+	(polyline
+		(pts
+			(xy 383.54 116.84) (xy 331.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ad4819-e1dc-4fb8-823d-895733a7e244")
+	)
+	(polyline
+		(pts
+			(xy 331.47 12.7) (xy 383.54 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9596bae7-9258-4779-9a0c-840305548c68")
+	)
+	(wire
+		(pts
+			(xy 332.74 200.66) (xy 358.14 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cf48e9-29ce-47c8-b987-1fe9a832220e")
+	)
+	(polyline
+		(pts
+			(xy 217.17 109.22) (xy 267.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9783c95f-f7ba-4899-a48f-f35f43bb6d46")
+	)
+	(wire
+		(pts
+			(xy 288.29 138.43) (xy 284.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97df73c0-f457-4e1a-a9ca-29824b76c97a")
+	)
+	(bus
+		(pts
+			(xy 331.47 66.04) (xy 383.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9890c374-7634-4824-92ef-8fc216fe1654")
+	)
+	(wire
+		(pts
+			(xy 293.37 152.4) (xy 300.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99243fce-1e30-46fe-93f2-0436c5c9f46e")
+	)
+	(wire
+		(pts
 			(xy 102.87 45.72) (xy 100.33 45.72)
 		)
 		(stroke
@@ -5668,6 +6430,16 @@
 			(type default)
 		)
 		(uuid "999582c4-c613-4575-83d7-6ccd34277a02")
+	)
+	(wire
+		(pts
+			(xy 254 161.29) (xy 254 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fb2b07-cd7d-4d4f-8a60-ca3704c9e19e")
 	)
 	(wire
 		(pts
@@ -5701,6 +6473,26 @@
 	)
 	(wire
 		(pts
+			(xy 254 154.94) (xy 254 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9d240b-b22f-499f-b867-6b8647e71830")
+	)
+	(polyline
+		(pts
+			(xy 328.93 179.07) (xy 328.93 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f474ebe-0b2b-4fff-b790-7dba0b0d364b")
+	)
+	(wire
+		(pts
 			(xy 69.85 161.29) (xy 64.77 161.29)
 		)
 		(stroke
@@ -5708,6 +6500,56 @@
 			(type default)
 		)
 		(uuid "a00dc79f-8b90-466b-8b23-da63412b5cc3")
+	)
+	(wire
+		(pts
+			(xy 361.95 142.24) (xy 361.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1cb4576-0887-4ad1-878f-91dcdfbdd0be")
+	)
+	(wire
+		(pts
+			(xy 359.41 142.24) (xy 346.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21c371b-573f-46bd-b1ba-ab2f83d8425c")
+	)
+	(wire
+		(pts
+			(xy 332.74 223.52) (xy 358.14 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a337287c-3509-4b19-8db3-47698a55d7e2")
+	)
+	(wire
+		(pts
+			(xy 361.95 142.24) (xy 359.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e82e43-55ab-4a2e-9330-b8a922e0f765")
+	)
+	(wire
+		(pts
+			(xy 307.34 45.72) (xy 304.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42a8e17-4fd2-49c4-8372-20b22569ba34")
 	)
 	(polyline
 		(pts
@@ -5718,6 +6560,16 @@
 			(type default)
 		)
 		(uuid "a450947a-e0a2-41fc-8e64-1e77e29683d3")
+	)
+	(wire
+		(pts
+			(xy 288.29 152.4) (xy 293.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7cc91eb-2084-4177-8f69-72c9a5907e94")
 	)
 	(bus
 		(pts
@@ -5759,6 +6611,36 @@
 		)
 		(uuid "af56e8a1-6ba8-4458-90e6-e9c61994095c")
 	)
+	(polyline
+		(pts
+			(xy 331.47 165.1) (xy 383.54 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13cf2cd-abd0-453e-b018-d1a5a47855c7")
+	)
+	(wire
+		(pts
+			(xy 332.74 218.44) (xy 358.14 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ac271f-2b33-4fcd-b2b2-6852273f2eed")
+	)
+	(polyline
+		(pts
+			(xy 331.47 120.65) (xy 331.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b879d4-8bde-4eed-a42c-cc80f5223462")
+	)
 	(bus
 		(pts
 			(xy 12.7 283.21) (xy 92.71 283.21)
@@ -5769,6 +6651,16 @@
 		)
 		(uuid "b656cfe2-b744-426a-9c2c-a5dd82f2c848")
 	)
+	(polyline
+		(pts
+			(xy 383.54 120.65) (xy 331.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74a24c5-c133-4ff4-9553-9702a17e873f")
+	)
 	(wire
 		(pts
 			(xy 102.87 50.8) (xy 100.33 50.8)
@@ -5778,6 +6670,26 @@
 			(type default)
 		)
 		(uuid "b83a0a40-5b04-4355-85f4-8694c6817adf")
+	)
+	(wire
+		(pts
+			(xy 379.73 139.7) (xy 379.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b850014d-5454-498f-9fa3-a320ab9e9dab")
+	)
+	(wire
+		(pts
+			(xy 346.71 139.7) (xy 359.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb613902-8d7b-410e-a1cc-c6931d0cdd75")
 	)
 	(wire
 		(pts
@@ -5811,6 +6723,26 @@
 	)
 	(polyline
 		(pts
+			(xy 331.47 12.7) (xy 332.74 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8ccd1c-a857-43c9-970d-340081feac33")
+	)
+	(wire
+		(pts
+			(xy 250.19 149.86) (xy 259.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2612473-74b3-428f-bb0f-e3e2bf145cf8")
+	)
+	(polyline
+		(pts
 			(xy 12.7 109.22) (xy 63.5 109.22)
 		)
 		(stroke
@@ -5828,6 +6760,16 @@
 			(type default)
 		)
 		(uuid "c364996e-8932-45b4-9f9a-3775c2ae28e3")
+	)
+	(polyline
+		(pts
+			(xy 331.47 38.1) (xy 383.54 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36f6016-1c9c-453d-86c4-38bdcd994c2e")
 	)
 	(polyline
 		(pts
@@ -5859,6 +6801,26 @@
 		)
 		(uuid "c8808879-43d2-4820-92e5-391c94c673eb")
 	)
+	(wire
+		(pts
+			(xy 361.95 139.7) (xy 365.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb661230-0f18-4d5c-b3e5-e00053fb6d1d")
+	)
+	(polyline
+		(pts
+			(xy 345.44 215.9) (xy 345.44 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea0d80f-c476-4617-8017-327cf42644e8")
+	)
 	(polyline
 		(pts
 			(xy 127 179.07) (xy 127 168.91)
@@ -5881,6 +6843,26 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 220.98) (xy 358.14 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef3cfdf-a622-4f01-88fd-28a3a8140fe0")
+	)
+	(polyline
+		(pts
+			(xy 331.47 12.7) (xy 331.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef9bd2c-6d61-4b23-95f5-b712f45ef582")
+	)
+	(wire
+		(pts
 			(xy 128.27 205.74) (xy 153.67 205.74)
 		)
 		(stroke
@@ -5888,6 +6870,16 @@
 			(type default)
 		)
 		(uuid "cf4f3e08-bab4-4dba-b0c9-fc5a14a372e2")
+	)
+	(wire
+		(pts
+			(xy 307.34 66.04) (xy 304.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdfe70c-d96f-437d-b65c-e104b1accfbb")
 	)
 	(polyline
 		(pts
@@ -5898,6 +6890,46 @@
 			(type default)
 		)
 		(uuid "d0da1696-470c-47e3-b75c-2abc4ac77faa")
+	)
+	(wire
+		(pts
+			(xy 279.4 147.32) (xy 288.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13ad497-e192-4ddf-a571-c348511ece60")
+	)
+	(polyline
+		(pts
+			(xy 331.47 116.84) (xy 383.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d389bbcd-2ce6-4599-86d6-5359480e1b01")
+	)
+	(wire
+		(pts
+			(xy 332.74 205.74) (xy 358.14 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b29d89-c831-4886-9b7e-8170e3b8a8e3")
+	)
+	(wire
+		(pts
+			(xy 332.74 208.28) (xy 358.14 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68856e6-3354-4631-b045-19d956d149e2")
 	)
 	(wire
 		(pts
@@ -5941,6 +6973,26 @@
 	)
 	(polyline
 		(pts
+			(xy 302.26 245.11) (xy 383.54 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3d4323-4186-4c41-be5e-32a9f2a9fd5e")
+	)
+	(wire
+		(pts
+			(xy 361.95 125.73) (xy 361.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0659fd7-bd99-49d2-a66d-3a9568fd9867")
+	)
+	(polyline
+		(pts
 			(xy 124.46 109.22) (xy 12.7 109.22)
 		)
 		(stroke
@@ -5948,6 +7000,26 @@
 			(type default)
 		)
 		(uuid "e102d716-7818-46f4-83c7-1e5e809e6124")
+	)
+	(bus
+		(pts
+			(xy 331.47 116.84) (xy 331.47 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4431667-68fe-4e82-8738-2fdfa0a5259e")
+	)
+	(polyline
+		(pts
+			(xy 383.54 168.91) (xy 383.54 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a18dc3-b1c7-4266-b59b-bb14adfd27ff")
 	)
 	(wire
 		(pts
@@ -5971,6 +7043,46 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 147.32) (xy 359.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea65121f-847c-423d-a280-6cd858540a62")
+	)
+	(polyline
+		(pts
+			(xy 331.47 63.5) (xy 383.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea96cc12-fc91-407d-97d3-61545d33cc5e")
+	)
+	(polyline
+		(pts
+			(xy 383.54 179.07) (xy 378.46 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec611a73-d56e-4116-b3af-0e01b074a0f0")
+	)
+	(wire
+		(pts
+			(xy 245.11 138.43) (xy 252.73 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed22db2c-b4fb-4a65-8466-42c154296124")
+	)
+	(wire
+		(pts
 			(xy 128.27 218.44) (xy 153.67 218.44)
 		)
 		(stroke
@@ -5978,6 +7090,26 @@
 			(type default)
 		)
 		(uuid "ee1cb344-143b-4dc0-80ed-aae7eb2aae10")
+	)
+	(polyline
+		(pts
+			(xy 217.17 12.7) (xy 328.93 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc26370-96e2-4d53-a317-2a7b90e8efe1")
+	)
+	(polyline
+		(pts
+			(xy 217.17 179.07) (xy 328.93 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06e8d17-421d-402f-a387-b176f8c4db36")
 	)
 	(wire
 		(pts
@@ -6021,6 +7153,26 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 156.21) (xy 361.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31112a2-d682-4404-9c4e-8e6efa912f9c")
+	)
+	(polyline
+		(pts
+			(xy 302.26 182.88) (xy 302.26 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4427017-f90d-47b5-8f49-d1c8cf193412")
+	)
+	(wire
+		(pts
 			(xy 102.87 40.64) (xy 100.33 40.64)
 		)
 		(stroke
@@ -6031,6 +7183,26 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 274.32) (xy 242.57 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f591dfe3-eb25-4d47-854d-785d564fdbed")
+	)
+	(wire
+		(pts
+			(xy 274.32 160.02) (xy 274.32 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75fe54b-8b11-426c-9495-0a4a024bfea1")
+	)
+	(wire
+		(pts
 			(xy 45.72 149.86) (xy 45.72 170.18)
 		)
 		(stroke
@@ -6038,6 +7210,26 @@
 			(type default)
 		)
 		(uuid "f8538094-1464-4af6-aa3e-52edad24b280")
+	)
+	(wire
+		(pts
+			(xy 307.34 63.5) (xy 304.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9089513-e0fd-4819-a851-a20cc543eec8")
+	)
+	(polyline
+		(pts
+			(xy 383.54 182.88) (xy 383.54 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95a6a36-8c9d-4e36-b7e9-a66f908e87fe")
 	)
 	(wire
 		(pts
@@ -6069,6 +7261,26 @@
 		)
 		(uuid "fb3b9623-6439-44d9-92d8-0861be947454")
 	)
+	(polyline
+		(pts
+			(xy 381 182.88) (xy 383.54 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbff352-fc71-4e54-b5bd-5e6c653bd113")
+	)
+	(wire
+		(pts
+			(xy 379.73 142.24) (xy 379.73 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf8ad08-8971-4321-99c7-6fcaa938d16b")
+	)
 	(wire
 		(pts
 			(xy 128.27 198.12) (xy 153.67 198.12)
@@ -6098,6 +7310,17 @@
 			(type default)
 		)
 		(uuid "ff22a7d6-495c-4c97-89c7-3c011037ac1f")
+	)
+	(text "Handedness selection works by pulling a \ndedicated pin high or low.\nThis is checked upon boot and the correct\nside is set at runtime.\nThe default is high for the left side and\nlow for the right side, but this can be\noverwritten in firmware."
+		(exclude_from_sim no)
+		(at 252.73 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04354045-43b8-471c-84e6-db2ccda480d6")
 	)
 	(text "Reset button Left"
 		(exclude_from_sim no)
@@ -6154,6 +7377,50 @@
 		)
 		(uuid "3af0ad9b-0391-4dc0-a1d2-7417c0dd5599")
 	)
+	(text "Jumpers Left"
+		(exclude_from_sim no)
+		(at 242.57 187.96 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d13f7e2-422c-4497-b658-c11074f998db")
+	)
+	(text "VIK requires 5V per spec, but this is\nnot directly feasible when connected\non a wireless connection.\nAlthough not recommended, if you REALLY\nwant to use a 5V VIK module with a\nwireless configuration, you can, by\nsoldering the jumper providing input\nto the level booster."
+		(exclude_from_sim no)
+		(at 285.75 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40f21f8f-5d03-4884-9a43-fae03a10b5c0")
+	)
+	(text "Connectors Left"
+		(exclude_from_sim no)
+		(at 336.55 72.39 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "46dcf0cd-60bd-49f0-bdf7-4f3068d9f193")
+	)
+	(text "Reset button Left"
+		(exclude_from_sim no)
+		(at 336.55 19.05 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "594ef2b9-d4c5-4cdc-860d-05bb1010b9d1")
+	)
 	(text "Power Switch Left"
 		(exclude_from_sim no)
 		(at 132.08 45.72 0)
@@ -6165,6 +7432,17 @@
 		)
 		(uuid "62019ff8-02eb-483b-8986-ee12bcb3c7d7")
 	)
+	(text "Level Booster Left"
+		(exclude_from_sim no)
+		(at 224.79 120.65 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fbebac7-530d-4896-9c13-64b952190840")
+	)
 	(text "This jumper is not standard, and\nis *not* required. This is to allow\nyou to cut to use a cirque trackpad via\nspi, since it's otherwise compatible."
 		(exclude_from_sim no)
 		(at 134.62 241.3 0)
@@ -6175,6 +7453,17 @@
 			(justify left bottom)
 		)
 		(uuid "882a975f-8cf5-46c5-adff-02ae880920ee")
+	)
+	(text "Power Switch Left"
+		(exclude_from_sim no)
+		(at 336.55 45.72 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "88661339-30b3-442d-b3dc-6214a28e1972")
 	)
 	(text "MCU Left"
 		(exclude_from_sim no)
@@ -6198,6 +7487,17 @@
 		)
 		(uuid "90544a21-dc1d-4d19-b9bf-6b08a8b83f3f")
 	)
+	(text "VIK Connector Left"
+		(exclude_from_sim no)
+		(at 312.42 193.04 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5bb119a-946d-4fd8-830f-6d32e9dbd075")
+	)
 	(text "Connectors Left"
 		(exclude_from_sim no)
 		(at 132.08 72.39 0)
@@ -6220,6 +7520,39 @@
 		)
 		(uuid "c7b8dc35-5f1d-41e4-b66a-39cae9e26f81")
 	)
+	(text "This jumper is not standard, and\nis *not* required. This is to allow\nyou to cut to use a cirque trackpad via\nspi, since it's otherwise compatible."
+		(exclude_from_sim no)
+		(at 339.09 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce233592-ab7f-4a9c-8072-60c9f785f8a8")
+	)
+	(text "MCU Right"
+		(exclude_from_sim no)
+		(at 255.27 22.86 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0d04cfd-f167-488a-ad59-23f03c59589c")
+	)
+	(text "Hotplugging protection,\ncourtesy of a Zener diode."
+		(exclude_from_sim no)
+		(at 332.74 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7dc6969-6297-4b70-8d52-ab9fe092b29b")
+	)
 	(text "Level Booster Left"
 		(exclude_from_sim no)
 		(at 20.32 120.65 0)
@@ -6230,6 +7563,17 @@
 			(justify left bottom)
 		)
 		(uuid "f4f1a139-d3ed-46ad-abc1-928a7c9160c0")
+	)
+	(text "TRRS Left"
+		(exclude_from_sim no)
+		(at 336.55 127 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "f84131a1-2363-49ac-8693-bcc2afb609d9")
 	)
 	(global_label "MOSI_L"
 		(shape input)
@@ -6248,6 +7592,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI_R"
+		(shape input)
+		(at 358.14 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0529cc40-8e20-478c-8763-9006f8fb50a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.0541 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6272,6 +7638,26 @@
 			)
 		)
 	)
+	(global_label "RGB_OR_WL_COL_R"
+		(shape input)
+		(at 238.76 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06a7f9a9-a59e-413b-a5f6-cfb3c4aac14f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.13 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col6_l"
 		(shape input)
 		(at 64.77 240.03 180)
@@ -6288,6 +7674,27 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX_OR_TX_R"
+		(shape input)
+		(at 238.76 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "082f94df-5760-4bfd-943e-9c468c2c5b32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.025 43.1006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6333,6 +7740,26 @@
 			)
 		)
 	)
+	(global_label "col5_r"
+		(shape input)
+		(at 307.34 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14cedb3a-b204-4259-8f3a-896802ff260b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RGB_L"
 		(shape input)
 		(at 163.83 106.68 180)
@@ -6349,6 +7776,27 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "serial_r"
+		(shape input)
+		(at 229.87 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16241d32-7f67-42bf-a6ee-606518aa7b0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.135 206.9306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6374,6 +7822,26 @@
 			)
 		)
 	)
+	(global_label "row5_r"
+		(shape input)
+		(at 368.3 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20c35ba8-73f2-4104-bc77-96314893b8ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 339.09 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col1_l"
 		(shape input)
 		(at 142.24 104.14 180)
@@ -6386,6 +7854,26 @@
 		(uuid "22599f14-3d10-4a97-99b6-1b9144464628")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.03 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT_sw_r"
+		(shape input)
+		(at 361.95 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "225eaba3-cbf0-4af7-9519-56fa022caea2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.76 -72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,6 +7902,68 @@
 			)
 		)
 	)
+	(global_label "RST_R"
+		(shape input)
+		(at 307.34 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24dddb02-0e37-4090-8210-874e9ba35985")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX_R"
+		(shape input)
+		(at 269.24 207.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27121c46-aa44-47b1-b558-40f8d11e251e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.505 206.9306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX_OR_RX_R"
+		(shape input)
+		(at 236.22 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2860abee-d525-49b7-af90-59435ee1082d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.2994 195.465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCLK_L"
 		(shape input)
 		(at 153.67 198.12 0)
@@ -6436,6 +7986,26 @@
 			)
 		)
 	)
+	(global_label "col3_r"
+		(shape input)
+		(at 307.34 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b8e283b-9743-452a-8dac-ebd6f5c1fa42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row5_l"
 		(shape input)
 		(at 69.85 73.66 270)
@@ -6448,6 +8018,87 @@
 		(uuid "2bc05cb4-4d7a-4515-a888-f5302e966dfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI_R"
+		(shape input)
+		(at 238.76 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e9f976f-4f5e-4022-9b26-52df38a1492d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.8717 55.9594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col6_r"
+		(shape input)
+		(at 368.3 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3054f547-a8cf-4163-8cf5-214dc37609b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 339.09 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2_r"
+		(shape input)
+		(at 346.71 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33e03984-28fa-44a2-891e-4db2b38e99c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 317.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3_r"
+		(shape input)
+		(at 368.3 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b88b0a3-f457-4fce-a123-06e42d822f1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 339.09 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,6 +8171,26 @@
 			)
 		)
 	)
+	(global_label "col6_r"
+		(shape input)
+		(at 276.86 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4399acba-a6b2-4707-becd-4785a8042f0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col1_l"
 		(shape input)
 		(at 102.87 60.96 0)
@@ -6536,6 +8207,90 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2_r"
+		(shape input)
+		(at 346.71 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43de4df2-b2f7-45e8-8300-040ca8763cad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 317.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2_r"
+		(shape input)
+		(at 238.76 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46700d77-1e48-48e3-96f3-64c962569ef3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK_R"
+		(shape input)
+		(at 358.14 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d0a7987-7a3b-4dc5-ac01-8b29e01ae278")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.2355 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL_R"
+		(shape input)
+		(at 238.76 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d3bc950-2bc1-4e74-9b3a-512950f3a4c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.9345 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6641,6 +8396,28 @@
 			)
 		)
 	)
+	(global_label "B+_R"
+		(shape input)
+		(at 242.57 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "540917e9-d641-4d14-9f34-f407ce03b532")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.7303 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX_L"
 		(shape input)
 		(at 38.1 207.01 0)
@@ -6658,6 +8435,47 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "split_hand_or_row_r"
+		(shape input)
+		(at 271.78 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5626ea87-7b63-4469-bdb9-2b589bd03367")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.8594 85.8098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1_r"
+		(shape input)
+		(at 238.76 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58874c57-e2a3-4947-bd7a-778c0dc0a0cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6703,6 +8521,48 @@
 			)
 		)
 	)
+	(global_label "col2_r"
+		(shape input)
+		(at 307.34 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d42409a-71ea-4380-9f6c-868163fce1cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT_OR_5V_R"
+		(shape input)
+		(at 236.22 236.22 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "639a0653-5f8b-4730-9640-4bfa6d61e130")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.22 220.7421 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCLK_L"
 		(shape input)
 		(at 34.29 60.96 180)
@@ -6720,6 +8580,27 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "split_hand_or_row_r"
+		(shape input)
+		(at 236.22 270.51 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64de3ad8-4ccf-427b-af32-1d8d6a69c7af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.1406 258.3602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6745,7 +8626,27 @@
 			)
 		)
 	)
-	(global_label "RST"
+	(global_label "col6_r"
+		(shape input)
+		(at 269.24 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b8f6f09-c0c4-47b2-99f6-f6157f40126c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST_L"
 		(shape input)
 		(at 147.32 29.21 180)
 		(effects
@@ -6846,6 +8747,68 @@
 			)
 		)
 	)
+	(global_label "BAT_sw_r"
+		(shape input)
+		(at 344.17 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75ec2c20-9226-4ef2-86b8-da836625fe80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 467.36 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX_OR_TX_R"
+		(shape input)
+		(at 275.59 203.2 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7783d3b2-6479-43a4-8ddd-59cdfe1b89f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.6694 195.465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_OR_WL_COL_R"
+		(shape input)
+		(at 275.59 236.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77929c70-811e-4caf-9103-97e0d3e1dab6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.5106 224.0702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row5_l"
 		(shape input)
 		(at 25.4 274.32 180)
@@ -6926,6 +8889,28 @@
 			)
 		)
 	)
+	(global_label "SDA_R"
+		(shape input)
+		(at 358.14 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82e257ba-8cc8-4c36-8093-5d05806852bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.026 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col3_l"
 		(shape input)
 		(at 102.87 55.88 0)
@@ -6987,6 +8972,67 @@
 			)
 		)
 	)
+	(global_label "col4_r"
+		(shape input)
+		(at 368.3 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9250d401-7088-45f3-b06e-31bec66390af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 339.09 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col5_r"
+		(shape input)
+		(at 368.3 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93fda9e2-4cf6-4534-bc7b-bbd0c9ca058b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 339.09 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO_R"
+		(shape input)
+		(at 238.76 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94621b94-49ae-4b7d-9c9e-0141db86db8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.8717 63.4206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col4_l"
 		(shape input)
 		(at 102.87 66.04 0)
@@ -7003,6 +9049,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_2_R"
+		(shape input)
+		(at 358.14 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96a78f99-ffd7-494c-92b9-d74ad9633cdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 370.1103 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7029,6 +9097,27 @@
 			)
 		)
 	)
+	(global_label "SCLK_R"
+		(shape input)
+		(at 238.76 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d1a95da-ba0a-46e5-88e6-be416bf47c39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.2302 60.8806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BAT_sw_l"
 		(shape input)
 		(at 157.48 58.42 0)
@@ -7041,6 +9130,26 @@
 		(uuid "9dcd7391-bcde-455e-bce0-411d744645bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.29 -72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_2_R"
+		(shape input)
+		(at 307.34 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e5bf062-163a-410b-91ba-587f651d7ac9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +9178,48 @@
 			)
 		)
 	)
-	(global_label "RST"
+	(global_label "row4_r"
+		(shape input)
+		(at 269.24 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f1fc0ff-c12d-4377-b893-1f56e5660d9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 323.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_CS_R"
+		(shape input)
+		(at 307.34 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fff0945-88d8-4ef2-a4e4-61c7fc2e91ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 311.8093 68.5006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST_L"
 		(shape input)
 		(at 102.87 45.72 0)
 		(effects
@@ -7085,6 +9235,27 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX_R"
+		(shape input)
+		(at 242.57 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1688eba-f5d4-4e09-991d-211009acccf8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.305 207.0894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7111,6 +9282,26 @@
 			)
 		)
 	)
+	(global_label "row4_r"
+		(shape input)
+		(at 368.3 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa4c4ae6-1607-495d-b1c3-1cd59743c582")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 339.09 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_1_L"
 		(shape input)
 		(at 153.67 210.82 0)
@@ -7129,6 +9320,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX_OR_RX_R"
+		(shape input)
+		(at 238.76 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad248c0e-c36c-4f69-b025-8ee165a3d0f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.025 40.5606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7188,6 +9400,26 @@
 		(uuid "b1cff1fa-bfc6-46eb-be2d-91ffa716b5e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_R"
+		(shape input)
+		(at 368.3 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2a1d68e-8535-42a1-bcca-2cb6c67be9a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.155 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,6 +9489,88 @@
 			)
 		)
 	)
+	(global_label "TX_R"
+		(shape input)
+		(at 359.41 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bacf8231-13b2-4b0f-b68e-9c290a64d5ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.4894 126.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4_r"
+		(shape input)
+		(at 307.34 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bba4bb4e-dacc-4ddf-b216-0500088a73b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "serial_r"
+		(shape input)
+		(at 359.41 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bda2963d-8453-4f09-a4b2-33d74636a00b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.3306 155.055 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1_r"
+		(shape input)
+		(at 346.71 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be25f1ca-8fcc-4eaf-9c7c-893dee7d41bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 317.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "serial_l"
 		(shape input)
 		(at 77.47 207.01 0)
@@ -7274,6 +9588,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_1_R"
+		(shape input)
+		(at 307.34 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bea8cf21-bd54-488f-8612-d26b5343a115")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row5_r"
+		(shape input)
+		(at 229.87 274.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c33e9eb0-aac1-4064-b160-797ec854db05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1_r"
+		(shape input)
+		(at 307.34 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3de189c-a30a-437b-848a-ab327e327699")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 336.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7318,6 +9692,26 @@
 			)
 		)
 	)
+	(global_label "row5_r"
+		(shape input)
+		(at 274.32 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9fa2bac-25ba-43e5-884b-4c1bb1ae7630")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 331.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BAT_sw_l"
 		(shape input)
 		(at 139.7 78.74 180)
@@ -7334,6 +9728,48 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+_R"
+		(shape input)
+		(at 351.79 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbcc198b-af44-4207-9789-5437c1a02868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 474.98 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_R"
+		(shape input)
+		(at 358.14 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc9c97f3-1eef-4738-a962-5df6a26caf75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.2679 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7359,6 +9795,26 @@
 			)
 		)
 	)
+	(global_label "SPI_CS_R"
+		(shape input)
+		(at 358.14 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4aa155b-20b8-4ced-a2fe-43dfd8a42668")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX_OR_RX_L"
 		(shape input)
 		(at 34.29 40.64 180)
@@ -7380,6 +9836,46 @@
 			)
 		)
 	)
+	(global_label "BAT_OR_5V_R"
+		(shape input)
+		(at 307.34 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6e0d8e2-7b85-4380-915f-23e19867b130")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.15 -90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3_r"
+		(shape input)
+		(at 266.7 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7408ef6-4569-4526-98d4-639b231aa60c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 323.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row5_l"
 		(shape input)
 		(at 163.83 88.9 180)
@@ -7392,6 +9888,26 @@
 		(uuid "d7ea0f65-af56-4314-8615-17af2e82099c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_R"
+		(shape input)
+		(at 281.94 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d85839df-2a6f-46b6-bb4e-f5602a62778a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.085 316.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,6 +9934,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3_r"
+		(shape input)
+		(at 346.71 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df9ff925-1e59-44b3-897f-4ddc44429761")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 317.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7485,6 +10021,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_1_R"
+		(shape input)
+		(at 358.14 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9a69afd-1c62-47f2-b33e-e0f39f90fa0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 370.1103 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "B+_L"
 		(shape input)
 		(at 147.32 55.88 180)
@@ -7527,6 +10085,46 @@
 			)
 		)
 	)
+	(global_label "RST_R"
+		(shape input)
+		(at 351.79 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed4db083-765f-469a-878e-5468061f06d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.56 -74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1_r"
+		(shape input)
+		(at 346.71 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed5f4e50-3a70-46d3-9c6d-74bf8a256142")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 317.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX_L"
 		(shape input)
 		(at 64.77 207.01 180)
@@ -7548,6 +10146,28 @@
 			)
 		)
 	)
+	(global_label "MISO_R"
+		(shape input)
+		(at 358.14 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2f29c6a-87c1-4fc5-897f-0965c495835d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.0541 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BAT_OR_5V_L"
 		(shape input)
 		(at 31.75 236.22 90)
@@ -7561,6 +10181,69 @@
 		(uuid "f65138fa-2e39-426a-baa2-469be265c117")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.75 220.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "serial_r"
+		(shape input)
+		(at 281.94 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa291320-e13a-47d5-a3dc-67f26181def8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.675 207.0894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_R"
+		(shape input)
+		(at 238.76 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc9aa626-2e7e-4d4a-afa1-3addd3653eca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.55 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL_R"
+		(shape input)
+		(at 358.14 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe9f3c36-1f94-456f-bfbd-210db46441d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 366.9655 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,6 +10386,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 344.17 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08c77922-3fe2-45ce-9d29-f5610f61925b")
+		(property "Reference" "#PWR036"
+			(at 350.52 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.1549 174.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 344.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b0f8c7a-4cfb-4706-8546-50ccd830a31b")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 307.34 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0982533d-16ce-4007-8fb0-a3cb8c1c43ed")
+		(property "Reference" "#PWR034"
+			(at 303.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 311.15 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 307.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8734dc33-657b-464c-8235-14cc666da2f5")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 142.24 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7829,6 +10644,77 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 356.87 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e92abb6-41ce-4cd9-8b3a-991654bc6b74")
+		(property "Reference" "SW4"
+			(at 356.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 356.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 356.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 356.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3446955-f8dc-4c22-9e12-c078dcd3c806")
+		)
+		(pin "2"
+			(uuid "7eb63c81-40fa-4797-944d-77cdd2c54ff0")
+		)
+		(pin "3"
+			(uuid "a971c554-af8d-4feb-80f2-0c3e2e815139")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -8251,6 +11137,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 252.73 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e3a51ae-7a89-4e96-9abf-c726cc6d2fc6")
+		(property "Reference" "#PWR027"
+			(at 252.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.857 149.1742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62fc7cff-10f6-4c13-ada9-4e95432fff18")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 96.52 152.4 270)
 		(unit 1)
@@ -8318,6 +11270,205 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 344.17 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "215aa042-a249-47d8-9c71-f390d86e519a")
+		(property "Reference" "JP14"
+			(at 344.17 208.5045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 344.17 211.2796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 344.17 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344.17 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1109b5a9-a37d-4f1c-b61d-0b18828aed42")
+		)
+		(pin "2"
+			(uuid "2c38a1cc-6ed9-402a-9fb1-520f71878086")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 370.84 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2348c616-f32b-4640-980f-b72b7d32dc83")
+		(property "Reference" "#PWR047"
+			(at 370.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 370.684 155.5749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 370.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ef444e7-1541-49cc-90fc-aa38a512b803")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 293.37 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2541634a-1def-44f0-8fa2-b541362a134e")
+		(property "Reference" "#PWR031"
+			(at 293.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 293.497 163.1442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d27c2828-9eff-4121-bca6-1d59b24b058e")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 153.67 213.36 270)
 		(unit 1)
@@ -8378,6 +11529,365 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "elite-c-holder:Dual-MCU-RP2040-nice!nano")
+		(at 271.78 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "262d00c9-8229-49ea-a525-db86d4666ef9")
+		(property "Reference" "U5"
+			(at 271.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Dual MCU: RP2040 + nice!nano"
+			(at 271.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Dual-MCU-rp2040-nice-nano"
+			(at 271.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol for a dual MCU, with pins of a nice-nano and an RP2040 (pro-micro footprint) controller"
+			(at 271.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "c473112d-9955-4736-a1b7-81fe89650f31")
+		)
+		(pin "12"
+			(uuid "9a4e33a8-71e6-4e5b-9792-a1627625e62d")
+		)
+		(pin "13"
+			(uuid "a89d511d-7f81-4670-b1a6-e0f2c7663f29")
+		)
+		(pin "23"
+			(uuid "bad49b79-973d-433e-a3aa-93ca410d770f")
+		)
+		(pin "24"
+			(uuid "0b6bf197-25ef-472d-9a92-70fd67474620")
+		)
+		(pin "25"
+			(uuid "d6bc059f-a049-4939-a298-bcc9520b4cba")
+		)
+		(pin "26"
+			(uuid "27113f7d-23fb-4ab6-932b-0c1816a5e169")
+		)
+		(pin "27"
+			(uuid "3d43d10f-ba8f-422d-821b-1c5e968f310d")
+		)
+		(pin "28"
+			(uuid "997897f9-195f-428c-a4f8-1fef443b4819")
+		)
+		(pin "18"
+			(uuid "3cea3260-cc10-46b4-bf25-34771570f1e0")
+		)
+		(pin "19"
+			(uuid "2183ac48-0a75-4e3e-9183-ed76c052525e")
+		)
+		(pin "21"
+			(uuid "e8ea6af4-4adf-44b2-b10a-0c98042c5491")
+		)
+		(pin "22"
+			(uuid "2a2039ad-0c7d-4597-83d7-e2be328349e5")
+		)
+		(pin "2"
+			(uuid "9e751b25-bf48-44b4-b956-4dd8de7a6ee4")
+		)
+		(pin "20"
+			(uuid "4de2742d-6ab3-48d3-8c6f-342f0affd3ef")
+		)
+		(pin "15"
+			(uuid "24baeecb-6605-44e0-8c13-abf71eb29cd5")
+		)
+		(pin "16"
+			(uuid "91c54f01-f680-46f4-94f8-278b05a6b565")
+		)
+		(pin "17"
+			(uuid "e568499c-7fd3-4e73-a2c2-1f79f8efdf2a")
+		)
+		(pin "3"
+			(uuid "b78c733f-0e7a-446a-a8f4-0cc230830b0f")
+		)
+		(pin "29"
+			(uuid "b3abd5e0-ec40-4759-b172-8b9d221bd04f")
+		)
+		(pin "5"
+			(uuid "7eda1683-2a91-48ed-9913-a72a3bf1ee7a")
+		)
+		(pin "6"
+			(uuid "61930479-dacf-4ef1-9bc7-eacb379d4116")
+		)
+		(pin "7"
+			(uuid "4730c2ae-74cb-44a4-b5bf-cdd522b13db9")
+		)
+		(pin "8"
+			(uuid "4c3e162e-d584-43c0-9b3b-cdf55347f48c")
+		)
+		(pin "9"
+			(uuid "0e85188f-9c3d-4d4f-883b-30068471945c")
+		)
+		(pin "10"
+			(uuid "7561b90a-b2a7-4f6d-a071-744c3c5274df")
+		)
+		(pin "11"
+			(uuid "593f958d-93b1-4a92-bd7c-96ee9f8202b6")
+		)
+		(pin "4"
+			(uuid "20e691e4-f6e5-46de-8419-be8f0ad36cf1")
+		)
+		(pin "1"
+			(uuid "8149c92d-8410-473c-b302-bc866a3ea566")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 229.87 240.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "280aea0e-2717-4f83-b602-541b30ad82f2")
+		(property "Reference" "#PWR023"
+			(at 233.68 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 225.925 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f686ab4-941d-45c1-8c31-00c2f33c15db")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 293.37 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29706706-6830-42d3-a5d9-862c699605c1")
+		(property "Reference" "C6"
+			(at 296.418 154.5082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47 uF"
+			(at 296.418 157.0482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 293.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C140782"
+			(at 293.37 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "350199ea-25b7-4731-8810-9f8337afce03")
+		)
+		(pin "2"
+			(uuid "5e284dd1-78e9-4e39-b0f8-cf884dad1827")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.3 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29b25949-2420-48fb-bf04-2bc1c68368e0")
+		(property "Reference" "#PWR044"
+			(at 361.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.3151 103.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc68732e-f2e7-435f-8480-7fc0c140bf97")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8694,6 +12204,144 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 238.76 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d04c516-9828-4114-ba65-0f0694193d4e")
+		(property "Reference" "#PWR025"
+			(at 232.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.7751 45.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecdc2997-7555-4c62-8d03-58c9d764e287")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 373.38 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4102d3c9-b1f2-4cbc-a737-452ab31c6897")
+		(property "Reference" "J12"
+			(at 374.0913 103.4478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RGB"
+			(at 367.538 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:header1x03"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 373.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c085ef04-fdca-4d56-b43f-75217fe75453")
+		)
+		(pin "2"
+			(uuid "e25fedaa-9ca0-419f-bec0-d5065a61fd7e")
+		)
+		(pin "3"
+			(uuid "739ee820-2d80-4d78-88bf-76d5fafca711")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 88.9 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8753,6 +12401,153 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 344.17 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "437d4afa-4ecc-471b-8e7b-29c8d7b53b41")
+		(property "Reference" "#PWR035"
+			(at 337.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 344.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c80b4e0-8517-4d6f-adf1-6612aa56343c")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 373.38 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "447a3fa0-4b53-4d45-a130-b35353cd8eff")
+		(property "Reference" "J11"
+			(at 372.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ribbon"
+			(at 365.125 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:6_PinHeader"
+			(at 373.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 373.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84a8b811-4ccb-4d56-92da-1cac52cd8cb5")
+		)
+		(pin "2"
+			(uuid "3c3cea7e-1665-4111-a167-7fb9a022f59b")
+		)
+		(pin "3"
+			(uuid "d5d0f0b1-4820-4547-956a-43eb926991b1")
+		)
+		(pin "4"
+			(uuid "64dfa378-5f2a-448a-bff6-15abc8290722")
+		)
+		(pin "5"
+			(uuid "9106d95d-8dc3-419f-85d9-04d69709dd17")
+		)
+		(pin "6"
+			(uuid "ac82ad1a-8355-4361-8aa1-c45b76af94cf")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8825,6 +12620,204 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 367.03 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4818b549-3fab-4fdd-85a6-feee71b12fb8")
+		(property "Reference" "H3"
+			(at 361.95 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 379.222 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:MountingHole_4mm_Pad_thin"
+			(at 367.03 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 367.03 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fec7b13-0fb7-41dc-a572-e6a641a3d8cd")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 346.71 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bf311d1-28ae-4911-94a0-0a91c3408e45")
+		(property "Reference" "#PWR037"
+			(at 353.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 353.6949 144.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 346.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b817b832-8b17-4a24-a002-ddfc4c235ef6")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 370.84 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ee9de2e-2a3c-44fe-b055-8954446cd432")
+		(property "Reference" "#PWR046"
+			(at 370.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 370.8399 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 370.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e289156b-7fce-4647-ab60-330797f90bc2")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 81.28 270)
 		(unit 1)
@@ -8885,6 +12878,73 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 300.99 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5535f5ef-95e2-4059-acfd-b83ccfb9637c")
+		(property "Reference" "#PWR032"
+			(at 297.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 304.165 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 300.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aad2cf1-9047-4e72-885d-849ae6b8e5d3")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9172,6 +13232,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 254 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d171599-7f5a-42a7-8d31-778ab15613b3")
+		(property "Reference" "#PWR028"
+			(at 254 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254.127 166.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c1f7a98-a591-4cdb-be5a-4dac9126100d")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 361.95 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65826734-f368-4521-94c9-8903e798792f")
+		(property "Reference" "#PWR042"
+			(at 368.3 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.9349 29.366 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7ed3636-52be-4ba1-bec2-74a1aab71e45")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 166.37 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9231,6 +13423,211 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 341.63 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6646cf90-212f-4638-8d30-1348b149ab61")
+		(property "Reference" "H1"
+			(at 336.55 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 353.822 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:MountingHole_4mm_Pad_thin"
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6312899b-e93b-47b9-906a-e6628c435bd7")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 257.81 274.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cb5848a-a850-4fe9-8fd4-7c775bf07dce")
+		(property "Reference" "#PWR029"
+			(at 254 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 261.62 274.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 257.81 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c613cccd-1cea-4310-9a6f-6b143f3d47aa")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack4")
+		(at 341.63 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f75bfa7-ecfc-4d2c-8e22-e7abb9e09352")
+		(property "Reference" "J8"
+			(at 340.487 134.1182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Serial"
+			(at 341.63 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:Jack_3.5mm_PJ320E_Horizontal"
+			(at 341.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 341.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "R1"
+			(uuid "bf254e44-0fd7-40a3-a319-7dc096eff5e4")
+		)
+		(pin "R2"
+			(uuid "958ac93b-4bbf-4442-ac3a-4c400e767904")
+		)
+		(pin "S"
+			(uuid "2694091b-5575-43fc-b691-7b13b22931e9")
+		)
+		(pin "T"
+			(uuid "a3245aeb-06a2-4061-887b-9fc28a0d6fe1")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9316,6 +13713,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 358.14 213.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73da1cb4-7889-408b-b923-f7818be2a73d")
+		(property "Reference" "#PWR039"
+			(at 354.33 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 361.315 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab93d985-329a-4b2e-bbcc-b087a6822b85")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 45.72 270)
 		(unit 1)
@@ -9376,6 +13839,366 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "780f0cf0-2c24-405f-b58c-d14b10bf48f1")
+		(property "Reference" "#PWR026"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.7751 48.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c349351b-2206-40b5-83b0-c6399d42f732")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 370.84 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e5ea4e5-3c0f-4ded-be88-f3385803d5e4")
+		(property "Reference" "U6"
+			(at 372.4911 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2P6"
+			(at 372.4911 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 372.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 372.11 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 370.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "98552cc2-579a-445e-87ad-db921e16ecc5")
+		)
+		(pin "5"
+			(uuid "3a2f953a-b43d-4251-ada6-3921d9f27573")
+		)
+		(pin "1"
+			(uuid "79a475f5-c95e-4006-80a6-60fbad83b905")
+		)
+		(pin "4"
+			(uuid "aea83783-c778-4305-a90c-dc0fc196da1b")
+		)
+		(pin "3"
+			(uuid "4a0c5b57-c10a-45e9-83fc-dd028790a4e1")
+		)
+		(pin "2"
+			(uuid "f33029d4-61fe-4dfb-9a93-9ac8659de30b")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 358.14 226.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81c5ddb8-95aa-49e8-8690-38c266492507")
+		(property "Reference" "#PWR041"
+			(at 354.33 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 364.49 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 358.14 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a3f3f0d-423f-41bc-a65a-e89218df0d67")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 368.3 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8280cac5-1288-49fa-841e-ada35b4f604c")
+		(property "Reference" "#PWR043"
+			(at 372.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 361.188 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 368.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0dd7d9c-b286-49d0-a961-599a1083cb2a")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 252.73 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8749a2f0-c854-4275-b874-61324a632327")
+		(property "Reference" "C4"
+			(at 255.778 140.5382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47 uF"
+			(at 255.778 143.0782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 252.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C140782"
+			(at 252.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "381d1e19-d52f-4228-8d6c-d3ccd392a86e")
+		)
+		(pin "2"
+			(uuid "a4a95af8-cdfc-4068-893b-efa47b5c49da")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9447,6 +14270,230 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 251.46 274.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b12e94b-72ad-4a25-8d04-50ca7382ef7c")
+		(property "Reference" "R2"
+			(at 252.73 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 250.19 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:R_1206_handsolder"
+			(at 251.46 272.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "1"
+			(at 251.46 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part" "C26033"
+			(at 251.46 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "537ed7b8-c7b7-466c-bd25-4662cd9d36ec")
+		)
+		(pin "2"
+			(uuid "23b89f0d-d894-48e8-a9fb-3d60f9bff3de")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 236.22 240.03 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91c21050-6abf-4bff-8888-8243506d4931")
+		(property "Reference" "JP9"
+			(at 236.22 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 236.22 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 236.22 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 236.22 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c6046d8-c9f3-4482-b3f4-0a9ae9d393fe")
+		)
+		(pin "3"
+			(uuid "fc05d53a-64b9-41f3-8cc1-ef0843d60a8a")
+		)
+		(pin "2"
+			(uuid "aa72abbf-f8de-42d8-8c37-599661979ad1")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96b21372-1248-44ea-b14f-ad8ca11fa058")
+		(property "Reference" "#PWR030"
+			(at 269.24 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.367 166.9542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7a7ce90-81dc-4de8-9aae-11d1f48941f5")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9906,6 +14953,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 233.68 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f873747-ae87-4182-9eeb-a3d73862a196")
+		(property "Reference" "#PWR024"
+			(at 237.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 228.6 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa6a3982-51ea-4be1-b041-8830aa3d92d6")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 49.53 158.75 0)
 		(unit 1)
@@ -9985,6 +15097,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 236.22 207.01 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a46c8f05-61a2-4af3-bf03-5e1c51f4d37f")
+		(property "Reference" "JP8"
+			(at 236.22 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 236.22 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 236.22 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 236.22 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65fe12ef-06ef-43f4-b1f1-7f149f67ae2b")
+		)
+		(pin "2"
+			(uuid "3f32d2c6-6515-46eb-9db4-c016b134a0ee")
+		)
+		(pin "3"
+			(uuid "c715f1b4-de71-478a-8a37-19130109adbf")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 48.26 270)
 		(unit 1)
@@ -10045,6 +15228,96 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "elite-c-holder:AP1603WG-7")
+		(at 269.24 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7de83ab-2f1b-4808-a0ea-b985992529eb")
+		(property "Reference" "U4"
+			(at 269.24 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP1603WG-7"
+			(at 269.24 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 270.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP1603.pdf"
+			(at 262.89 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Synchronous Boost Regulator, Adjustable Output 2.0V-5.5V, PWM/PFM True Disconnect, SOT-23"
+			(at 269.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C192712"
+			(at 269.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6edcbccb-d608-4694-8e4f-565b4d08e6af")
+		)
+		(pin "2"
+			(uuid "621a41a5-2eb3-4a43-a255-e78f566f0d02")
+		)
+		(pin "3"
+			(uuid "a6c783e9-5711-428d-833e-7500a5b828bf")
+		)
+		(pin "4"
+			(uuid "05213612-c836-4009-be70-16edd194337d")
+		)
+		(pin "5"
+			(uuid "3290b1a7-3495-4496-9201-04c8a6df86e4")
+		)
+		(pin "6"
+			(uuid "61bf411a-894b-4f17-9506-4f3c2f0f9582")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10321,6 +15594,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 236.22 274.32 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9ed5c77-85ef-4e2d-9c4e-e11490547680")
+		(property "Reference" "JP10"
+			(at 236.22 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 236.22 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 236.22 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 236.22 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c5fed1d-886a-4b82-b3c8-73c2c02d59f3")
+		)
+		(pin "2"
+			(uuid "60a5e88e-7ad8-4539-b20c-5db5bfdfe678")
+		)
+		(pin "3"
+			(uuid "47cc9ced-2907-48cf-845e-d6b38811096e")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 102.87 48.26 270)
 		(unit 1)
@@ -10520,6 +15864,149 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 358.14 223.52 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2b4462e-e0b3-48a1-9dc8-eab5ec2b9fc7")
+		(property "Reference" "#PWR040"
+			(at 364.49 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c30ad76-f76b-4fbb-97d6-2a74ec362058")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 280.67 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3f1e814-0872-4593-aad0-0d89b0170bcf")
+		(property "Reference" "L2"
+			(at 280.67 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22 uH"
+			(at 280.67 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C361669"
+			(at 280.67 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d55832a7-76bb-48a6-9780-3a35f3234f54")
+		)
+		(pin "2"
+			(uuid "d84d0565-8787-472d-89bc-2410962ccbfe")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 165.1 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10579,6 +16066,113 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vik:vik-keyboard-connector")
+		(at 325.12 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d71c8038-510c-4e55-9c69-685a44f83ad0")
+		(property "Reference" "J7"
+			(at 322.58 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 325.12 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "vik:vik-keyboard-connector-horizontal"
+			(at 325.12 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C479750"
+			(at 325.12 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74e3ffec-0ae6-4542-a7e7-ac5c37042545")
+		)
+		(pin "10"
+			(uuid "ef2096b3-a337-44a4-9ca1-e4d512d90184")
+		)
+		(pin "11"
+			(uuid "253e4b86-82a9-4964-b8e5-b4cd42c45d85")
+		)
+		(pin "12"
+			(uuid "66f05fa6-50e1-4183-9da2-174a5c8b5c2d")
+		)
+		(pin "2"
+			(uuid "933ccd97-0d41-4bfc-bade-e872d4319f8d")
+		)
+		(pin "3"
+			(uuid "019fb0b4-6bd8-42a3-9e4a-4e35ccb8126a")
+		)
+		(pin "4"
+			(uuid "9d7ce25f-b3a7-4678-b25e-a3cb0d687fc9")
+		)
+		(pin "5"
+			(uuid "75c58ca5-2e07-43a8-b19a-10d9617e9b38")
+		)
+		(pin "6"
+			(uuid "3640813a-4315-43ce-956f-3bbc681ede17")
+		)
+		(pin "7"
+			(uuid "4e4f5225-1651-4c63-b812-93f5c804d5f7")
+		)
+		(pin "8"
+			(uuid "a65d6b67-0293-4eb0-b3bb-2821318cd417")
+		)
+		(pin "9"
+			(uuid "06eaedb7-2ea6-4194-9959-56a606fbd938")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10865,6 +16459,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 275.59 240.03 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de987840-22bf-420d-9d3a-295041cb84c6")
+		(property "Reference" "JP13"
+			(at 275.59 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 275.59 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 275.59 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 275.59 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddf4d93f-aca9-49c6-92d5-f3d1870a209a")
+		)
+		(pin "2"
+			(uuid "e79fafd6-62d9-4172-adac-2481c5cad2ee")
+		)
+		(pin "3"
+			(uuid "db6af1c5-f2e3-45b0-8296-f16d23e88479")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 46.99 274.32 270)
 		(unit 1)
@@ -10952,6 +16617,210 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 369.57 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e29d41b2-b35d-4b20-892a-d0192eab892c")
+		(property "Reference" "#PWR045"
+			(at 375.92 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 376.5549 174.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 369.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0f4727f-a758-4bcf-be9c-9a2d72f25fc3")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 240.03 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2c28ae0-8a02-40a3-920a-a4fb214ab795")
+		(property "Reference" "JP11"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 240.03 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a9ec420-0041-40a1-9f12-35bfae3b43b2")
+		)
+		(pin "2"
+			(uuid "80c508e3-4bb9-4834-ad96-3ad60ad509fe")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 275.59 207.01 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5c9caff-528d-41ba-8dd8-8c71a5a9c191")
+		(property "Reference" "JP12"
+			(at 275.59 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Bridged12"
+			(at 275.59 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 275.59 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 275.59 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb3ef1af-9550-456b-a8b0-2ffc27a94228")
+		)
+		(pin "2"
+			(uuid "faf89191-c868-4b47-b01b-931851006ca9")
+		)
+		(pin "3"
+			(uuid "92a39937-c296-4ca8-b69f-b0f451366ded")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 144.78 78.74 0)
 		(unit 1)
@@ -11015,6 +16884,75 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 349.25 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeb5135b-e7c1-4412-881a-0c95b828a556")
+		(property "Reference" "J9"
+			(at 350.266 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery charge"
+			(at 339.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 349.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 349.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33a4c41e-8fab-49b5-a674-ac1c7b21c82d")
+		)
+		(pin "2"
+			(uuid "56d5b277-79eb-49f3-8454-65749a92321b")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11176,6 +17114,362 @@
 			(project "adapter"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 356.87 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6739241-66a8-4fe8-ac05-37d5268f1c43")
+		(property "Reference" "SW2"
+			(at 356.87 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 356.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:PushSwitch"
+			(at 356.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 356.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3e90cdf-18a8-4f2f-80d6-e9f8ad939f57")
+		)
+		(pin "2"
+			(uuid "40b14dfd-aa04-43ea-9f61-72da7c33dea1")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 351.79 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7fd49c5-4f67-4a81-a54e-77703e2129b6")
+		(property "Reference" "J10"
+			(at 350.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ribbon"
+			(at 342.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "library:5_PinHeader"
+			(at 351.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 351.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af54bd9c-02a7-4437-8eb2-0cdb9c6b1c4d")
+		)
+		(pin "2"
+			(uuid "a544d45e-1870-4e4d-8c79-9cd6006cd1c6")
+		)
+		(pin "3"
+			(uuid "91e67c6a-fb19-4070-b452-3b6f16a8a0cd")
+		)
+		(pin "4"
+			(uuid "aa2fcb9c-3c84-4d5e-ac13-e44ee0bc5e4a")
+		)
+		(pin "5"
+			(uuid "345f15f8-f64f-4037-a7a5-c42b856dbe82")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 307.34 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9812580-f7f1-45cd-9c7a-896a5cdb75c5")
+		(property "Reference" "#PWR033"
+			(at 313.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.3249 43.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9611a02-aa4d-4d1b-ba73-342dede17f58")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 346.71 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb291d6d-4549-4332-86ce-7052ef8decdb")
+		(property "Reference" "#PWR038"
+			(at 342.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 350.52 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 346.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ab001ed-cb89-4501-b19f-5d813ebce99e")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 254 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc22115c-c836-4d5c-af76-75afa8e96bd5")
+		(property "Reference" "C5"
+			(at 256.794 157.4863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 256.794 160.0263 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 254 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 254 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "318c3896-f5c8-4207-a0e9-26933fa8bb08")
+		)
+		(pin "2"
+			(uuid "6c422e94-43d9-485c-8034-cdd84647b727")
+		)
+		(instances
+			(project "adapter"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C5")
 					(unit 1)
 				)
 			)
