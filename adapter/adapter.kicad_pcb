@@ -1576,6 +1576,16 @@
 		(attr smd)
 		(fp_line
 			(start -5.5 4.295)
+			(end -3.05 4.295)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "392da11e-5a0b-405d-9d42-ccc6d5f23ee6")
+		)
+		(fp_line
+			(start -5.5 4.295)
 			(end -5.5 1.912)
 			(stroke
 				(width 0.254)
@@ -1585,14 +1595,14 @@
 			(uuid "cb19401c-d533-4bf1-9989-f49533ffa495")
 		)
 		(fp_line
-			(start 5.5 4.295)
-			(end -5.5 4.295)
+			(start 3.1 4.295)
+			(end 5.5 4.295)
 			(stroke
 				(width 0.254)
-				(type solid)
+				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "b15ff6e9-fce4-45df-a883-cd0831b290da")
+			(uuid "197da863-dfd3-4e09-a832-5911cd8ff840")
 		)
 		(fp_line
 			(start 5.5 4.295)
@@ -1603,6 +1613,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "0b8977ac-40cf-4e7e-ab59-842e9b0f9314")
+		)
+		(fp_line
+			(start -5.5 4.2)
+			(end 5.5 4.2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "06821693-0a08-4fe4-bd2f-4dacaa11e010")
+		)
+		(fp_line
+			(start 5.5 4.2)
+			(end 5.5 4.295)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0b429af9-35d8-4a50-a6c1-3515af8e96ef")
 		)
 		(fp_line
 			(start -5.5 -0.539)
@@ -1675,21 +1705,8 @@
 			(layer "Cmts.User")
 			(uuid "ebe31452-c85f-47d7-b03d-9a3dd41540d9")
 		)
-		(fp_text user "3v3"
-			(at -5.9 -2.7 -90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "0a889382-8a2c-4727-8467-3dce78c4f76c")
-			(effects
-				(font
-					(size 0.75 0.75)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
 		(fp_text user "VIK OUT"
-			(at -3.05 -3.48 -90)
+			(at -3.05 5.49 -90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "e3da385f-ee9d-450d-9edf-dce68a46d458")
