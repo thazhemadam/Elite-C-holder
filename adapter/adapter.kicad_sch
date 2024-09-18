@@ -11181,7 +11181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:Jack_3.5mm_PJ320E_Horizontal"
+		(property "Footprint" "PCM_marbastlib-xp-various:CON_MJ-4PP-9"
 			(at 137.16 142.24 0)
 			(effects
 				(font
@@ -12357,7 +12357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:Jack_3.5mm_PJ320E_Horizontal"
+		(property "Footprint" "PCM_marbastlib-xp-various:CON_MJ-4PP-9"
 			(at 341.63 142.24 0)
 			(effects
 				(font
