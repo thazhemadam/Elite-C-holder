@@ -2,6 +2,350 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "200AWMSP2T2A1M6RE"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "library:200AWMSP2T2A1M6RE"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "200AWMSP2T2A1M6RE_1_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 5.08)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 5.08)
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AP1603WG-7"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.62 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AP1603WG-7"
+			(at -1.27 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 1.27 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP1603.pdf"
+			(at -6.35 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Synchronous Boost Regulator, Adjustable Output 2.0V-5.5V, PWM/PFM True Disconnect, SOT-23"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Step-Up Boost DC-DC Regulator Adjustable"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AP1603WG-7_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AP1603WG-7_1_1"
+			(pin input line
+				(at 5.08 -7.62 90)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "REF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "SHDN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Dual-MCU-RP2040-nice!nano"
 		(exclude_from_sim no)
 		(in_bom no)
@@ -598,59 +942,4 @@
 			)
 		)
 	)
-	(symbol "AP1603WG-7" (in_bom yes) (on_board yes)
-		(property "Reference" "U" (at -7.62 8.89 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Value" "AP1603WG-7" (at -1.27 8.89 0)
-		(effects (font (size 1.27 1.27)) (justify left))
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 1.27 -6.35 0)
-		(effects (font (size 1.27 1.27) italic) (justify left) hide)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP1603.pdf" (at -6.35 11.43 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(property "ki_keywords" "Step-Up Boost DC-DC Regulator Adjustable" (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(property "ki_description" "Synchronous Boost Regulator, Adjustable Output 2.0V-5.5V, PWM/PFM True Disconnect, SOT-23" (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(property "ki_fp_filters" "SOT?23*" (at 0 0 0)
-		(effects (font (size 1.27 1.27)) hide)
-		)
-		(symbol "AP1603WG-7_0_1"
-		(rectangle (start -7.62 7.62) (end 7.62 -5.08)
-			(stroke (width 0.254) (type default))
-			(fill (type background))
-		)
-		)
-		(symbol "AP1603WG-7_1_1"
-		(pin input line (at 5.08 -7.62 90) (length 2.54)
-			(name "FB" (effects (font (size 1.27 1.27))))
-			(number "1" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 0 -7.62 90) (length 2.54)
-			(name "GND" (effects (font (size 1.27 1.27))))
-			(number "2" (effects (font (size 1.27 1.27))))
-		)
-		(pin input line (at -10.16 -2.54 0) (length 2.54)
-			(name "REF" (effects (font (size 1.27 1.27))))
-			(number "3" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_in line (at 10.16 5.08 180) (length 2.54)
-			(name "LX" (effects (font (size 1.27 1.27))))
-			(number "4" (effects (font (size 1.27 1.27))))
-		)
-		(pin power_out line (at 10.16 0 180) (length 2.54)
-			(name "OUT" (effects (font (size 1.27 1.27))))
-			(number "5" (effects (font (size 1.27 1.27))))
-		)
-		(pin input line (at -10.16 2.54 0) (length 2.54)
-			(name "SHDN" (effects (font (size 1.27 1.27))))
-			(number "6" (effects (font (size 1.27 1.27))))
-		)
-    	)
-  	)
 )
