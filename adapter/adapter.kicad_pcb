@@ -296,7 +296,7 @@
 		)
 		(fp_arc
 			(start 1 10.852513)
-			(mid 0.897486 11.099999)
+			(mid 0.897486 11.099998)
 			(end 0.65 11.202513)
 			(stroke
 				(width 0.1)
@@ -380,7 +380,7 @@
 		)
 		(fp_arc
 			(start 1 10.852513)
-			(mid 0.897486 11.099999)
+			(mid 0.897486 11.099998)
 			(end 0.65 11.202513)
 			(stroke
 				(width 0.1)
@@ -2421,7 +2421,7 @@
 		)
 		(fp_arc
 			(start 1 5.802513)
-			(mid 0.897486 6.049999)
+			(mid 0.897486 6.049998)
 			(end 0.65 6.152513)
 			(stroke
 				(width 0.1)
@@ -2505,7 +2505,7 @@
 		)
 		(fp_arc
 			(start 1 5.802513)
-			(mid 0.897486 6.049999)
+			(mid 0.897486 6.049998)
 			(end 0.65 6.152513)
 			(stroke
 				(width 0.1)
@@ -4615,11 +4615,11 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 		(layer "B.Cu")
 		(uuid "176e8395-f8a7-4b8e-af4c-9f7120e3aa93")
-		(at 122.95 93.5 90)
+		(at 123.73 93.47 90)
 		(descr "JST PH series connector, B2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH side entry")
 		(property "Reference" "J2"
-			(at 1 2.9 270)
+			(at 1 2.9 -90)
 			(layer "B.SilkS")
 			(uuid "0b60e1ee-4985-42a6-8086-c507d59c80a7")
 			(effects
@@ -4631,7 +4631,7 @@
 			)
 		)
 		(property "Value" "Battery charge"
-			(at 1 -4 270)
+			(at 1 -4 -90)
 			(layer "B.Fab")
 			(uuid "a5f8358d-c0ba-4eff-b05d-aca457066eb4")
 			(effects
@@ -5037,7 +5037,7 @@
 			(uuid "b3bcf2f9-2580-4628-a362-61671032483d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 -1.5 270)
+			(at 1 -1.5 -90)
 			(layer "B.Fab")
 			(uuid "79abfc91-8bab-4531-98de-8ef7e4961a56")
 			(effects
