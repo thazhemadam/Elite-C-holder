@@ -7810,9 +7810,9 @@
 			(remove_unused_layers no)
 			(uuid "44fe64cc-05ed-498f-82a9-dde860d19e6e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_E-Switch_EG1271_SPDT.wrl"
+		(model "${KIPRJMOD}/libs/holder/3dmodels/EG1271.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.55 -1.6 3.2)
 			)
 			(scale
 				(xyz 1 1 1)
