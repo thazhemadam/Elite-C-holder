@@ -10966,7 +10966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+		(property "Footprint" "library:200AWMSP2T2A1M6RE"
 			(at 356.87 55.88 0)
 			(effects
 				(font
@@ -11181,7 +11181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-various:CON_MJ-4PP-9"
+		(property "Footprint" "library:CON_MJ-4PP-9-no-bottom-hole"
 			(at 137.16 142.24 0)
 			(effects
 				(font
@@ -12357,7 +12357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-various:CON_MJ-4PP-9"
+		(property "Footprint" "library:CON_MJ-4PP-9-no-bottom-hole"
 			(at 341.63 142.24 0)
 			(effects
 				(font

@@ -1,0 +1,200 @@
+(footprint "CON_MJ-4PP-9-no-bottom-hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TRRS Jack")
+	(tags "TRRS jack 3.5mm headphone connector")
+	(property "Reference" "REF**"
+		(at 0 1.6256 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2cd0a074-3877-43a8-8868-115fb4d890cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Serial"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9e70451c-7e85-456e-925e-050192c8de92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CON_MJ-4PP-9-no-bottom-hole"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ceb2a753-628a-4f34-9564-014764571e0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d02a4a6e-6e39-485a-b347-55cbaafe0d34")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Audio Jack, 4 Poles (TRRS)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b6a3a9d-47f6-4f66-baf1-aae2ee9d8dab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.25 2.6)
+		(end -8.25 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90b1420c-ae6f-43e6-9f89-d259b5f20849")
+	)
+	(fp_line
+		(start -6.15 -3.1)
+		(end 6.15 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcac4540-20bf-446f-9e0b-4437476dd390")
+	)
+	(fp_line
+		(start -6.15 -2.6)
+		(end -8.25 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "990bc5d2-004f-4dd8-8cf5-0b7d17e7f754")
+	)
+	(fp_line
+		(start -6.15 2.6)
+		(end -8.25 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "deff2a50-1948-4694-9231-bb3807c84fdc")
+	)
+	(fp_line
+		(start -6.15 3.1)
+		(end -6.15 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a5a0838-3f9e-4e76-9b61-f4f4331a36f7")
+	)
+	(fp_line
+		(start 6.15 -3.1)
+		(end 6.15 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4b3b502-529a-4ced-b020-92564691f236")
+	)
+	(fp_line
+		(start 6.15 3.1)
+		(end -6.15 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c23056f6-1150-4cae-81a2-7b3d27f6fc7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.6 180)
+		(layer "F.Fab")
+		(uuid "b00bb301-08f4-4f82-9f81-263f5d7f53b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4.55 0 90)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b7d7aa8f-6622-4be9-830d-2bfb40975f5a")
+	)
+	(pad "R1" thru_hole oval
+		(at 4.25 -2.1 90)
+		(size 1.7 2.4)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb19a48d-4b1c-4af9-b005-f99e732c2e64")
+	)
+	(pad "R2" thru_hole oval
+		(at 0.25 -2.1 90)
+		(size 1.7 2.4)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f237757-61f9-463d-9cd7-bc7ee3a6e8e4")
+	)
+	(pad "S" thru_hole oval
+		(at -2.75 -2.1 90)
+		(size 1.7 2.4)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2296efb-4d2c-4703-82b4-bcc9b517d5be")
+	)
+	(pad "T" thru_hole oval
+		(at 5.75 2.1 90)
+		(size 1.7 2.4)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9166a085-e7de-4d6d-b84b-de16f68e8084")
+	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/CON_MJ-4PP-9.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
