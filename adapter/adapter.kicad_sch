@@ -10966,7 +10966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "library:200AWMSP2T2A1M6RE"
+		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
 			(at 356.87 55.88 0)
 			(effects
 				(font
@@ -12968,13 +12968,12 @@
 				)
 			)
 		)
-		(property "Footprint" "library:200AWMSP2T2A1M6RE"
+		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
 			(at 152.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
