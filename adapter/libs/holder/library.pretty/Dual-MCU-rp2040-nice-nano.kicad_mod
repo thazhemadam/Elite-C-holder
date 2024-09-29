@@ -987,7 +987,7 @@
 	(fp_text user "tow. PCB"
 		(at 0 -13.53 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "Cmts.User")
 		(uuid "9c0982cf-38f0-46d7-b953-f3a7528d5a79")
 		(effects
 			(font
@@ -1000,20 +1000,8 @@
 	(fp_text user "USB"
 		(at 0 -14.93 0)
 		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "f8b8df8e-7450-4de7-ad56-9b7451a7de74")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "USB"
-		(at 0 -14.93 0)
 		(layer "Cmts.User")
-		(uuid "777eed5f-6789-473b-a190-046f91dfa3ed")
+		(uuid "f8b8df8e-7450-4de7-ad56-9b7451a7de74")
 		(effects
 			(font
 				(size 1 1)
