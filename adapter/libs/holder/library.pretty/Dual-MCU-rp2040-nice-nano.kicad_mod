@@ -100,7 +100,7 @@
 		(start -8.89 -16.51)
 		(end 8.89 16.51)
 		(stroke
-			(width 0.15)
+			(width 0.2)
 			(type solid)
 		)
 		(fill none)
