@@ -14,8 +14,8 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
-        "dimension_units": 0,
+        "dimension_precision": 5,
+        "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
