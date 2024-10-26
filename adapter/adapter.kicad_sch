@@ -6877,7 +6877,7 @@
 		)
 		(uuid "3af0ad9b-0391-4dc0-a1d2-7417c0dd5599")
 	)
-	(text "Jumpers Left"
+	(text "Jumpers Right"
 		(exclude_from_sim no)
 		(at 242.57 187.96 0)
 		(effects
@@ -6899,7 +6899,7 @@
 		)
 		(uuid "40f21f8f-5d03-4884-9a43-fae03a10b5c0")
 	)
-	(text "Connectors Left"
+	(text "Connectors Right"
 		(exclude_from_sim no)
 		(at 336.55 72.39 0)
 		(effects
@@ -6910,7 +6910,7 @@
 		)
 		(uuid "46dcf0cd-60bd-49f0-bdf7-4f3068d9f193")
 	)
-	(text "Reset button Left"
+	(text "Reset button Right"
 		(exclude_from_sim no)
 		(at 336.55 19.05 0)
 		(effects
@@ -6932,7 +6932,7 @@
 		)
 		(uuid "62019ff8-02eb-483b-8986-ee12bcb3c7d7")
 	)
-	(text "Level Booster Left"
+	(text "Level Booster Right"
 		(exclude_from_sim no)
 		(at 224.79 120.65 0)
 		(effects
@@ -6954,7 +6954,7 @@
 		)
 		(uuid "882a975f-8cf5-46c5-adff-02ae880920ee")
 	)
-	(text "Power Switch Left"
+	(text "Power Switch Right"
 		(exclude_from_sim no)
 		(at 336.55 45.72 0)
 		(effects
@@ -6987,7 +6987,7 @@
 		)
 		(uuid "90544a21-dc1d-4d19-b9bf-6b08a8b83f3f")
 	)
-	(text "VIK Connector Left"
+	(text "VIK Connector Right"
 		(exclude_from_sim no)
 		(at 312.42 193.04 0)
 		(effects
@@ -7064,7 +7064,7 @@
 		)
 		(uuid "f4f1a139-d3ed-46ad-abc1-928a7c9160c0")
 	)
-	(text "TRRS Left"
+	(text "TRRS Right"
 		(exclude_from_sim no)
 		(at 336.55 127 0)
 		(effects
