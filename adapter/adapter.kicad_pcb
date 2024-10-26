@@ -17873,7 +17873,7 @@
 	(footprint "Button_Switch_THT:SW_E-Switch_EG1271_SPDT"
 		(layer "B.Cu")
 		(uuid "ab81a719-3c9b-4768-95a3-d70027291704")
-		(at 192.4 83.5925 -90)
+		(at 192.40404 83.6 -90)
 		(descr "E-Switch sub miniature slide switch, EG series, SPDT, https://www.e-switch.com/wp-content/uploads/2022/06/EG.pdf")
 		(tags "switch SPDT")
 		(property "Reference" "SW4"
