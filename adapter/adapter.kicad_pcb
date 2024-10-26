@@ -17627,7 +17627,7 @@
 			(pintype "passive")
 			(uuid "f5079b80-59a5-472a-8678-217bb70068c9")
 		)
-		(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_PUSH_6mm_H9.5mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3342.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
