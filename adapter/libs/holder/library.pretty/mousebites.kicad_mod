@@ -1,0 +1,191 @@
+(footprint "mousebites"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.048 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "d3bb2fb9-89f6-48ee-8e25-64d641188114")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "mousebites-2.5mm"
+		(at 0 -4.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e05ee0f-1237-4ccb-a613-2f764f77b644")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "mousebites"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45f9858a-b139-46d4-9db3-f06358158f41")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7b9f70d-0f8b-4ba2-86e9-22ca95b71d63")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9504a34a-ea4b-47f7-9778-c2812da78587")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.524 -1.004)
+		(end 1.524 -1.004)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9b0c68b8-fef6-4986-ab87-f366de1acd71")
+	)
+	(fp_line
+		(start -1.524 1.004)
+		(end 1.524 1.004)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8fa3493f-bbe7-4e8e-82f5-c5776f8bca8b")
+	)
+	(fp_arc
+		(start -2.63 -1)
+		(mid -1.63 0)
+		(end -2.63 1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c9e9bb40-5d75-4142-a7e7-6bfd29185a98")
+	)
+	(fp_arc
+		(start 2.63 1)
+		(mid 1.63 0)
+		(end 2.63 -1)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fc9da150-be91-49d8-944e-b03a797abf9b")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.27 -0.75)
+		(size 0.7874 0.7874)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7e7adfc2-d605-4d3d-abbe-297d5f6fd9bc")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.27 0.75)
+		(size 0.7874 0.7874)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c59e351e-3e06-4017-8b31-9a75f83e68c5")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -0.75)
+		(size 0.7874 0.7874)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(uuid "eb75d1b6-02a9-4f5e-8bac-f626f435cff8")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0.75)
+		(size 0.7874 0.7874)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(uuid "46504c45-cfe1-4637-8043-20279be3e6c9")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.27 -0.75)
+		(size 0.7874 0.7874)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ddd19766-1e8c-4757-be59-d906cbccfa12")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.27 0.75)
+		(size 0.7874 0.7874)
+		(drill 0.7874)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b878d245-f81d-4b69-a328-525e2ac9b48d")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu" "*.Adhes" "*.Paste" "*.SilkS" "*.Mask")
+		(uuid "02c23739-ec33-48bf-8e31-a6af9cc6956e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.63 -1) (xy 2.63 -1) (xy 2.63 1) (xy -2.63 1)
+			)
+		)
+	)
+	(group ""
+		(uuid "20d5e094-1914-400a-b2ec-457e601cf1c2")
+		(members "46504c45-cfe1-4637-8043-20279be3e6c9" "8fa3493f-bbe7-4e8e-82f5-c5776f8bca8b"
+			"b878d245-f81d-4b69-a328-525e2ac9b48d" "c59e351e-3e06-4017-8b31-9a75f83e68c5"
+		)
+	)
+	(group ""
+		(uuid "2305ed3f-6a00-4934-bb3d-af5a490163ed")
+		(members "7e7adfc2-d605-4d3d-abbe-297d5f6fd9bc" "9b0c68b8-fef6-4986-ab87-f366de1acd71"
+			"ddd19766-1e8c-4757-be59-d906cbccfa12" "eb75d1b6-02a9-4f5e-8bac-f626f435cff8"
+		)
+	)
+)
