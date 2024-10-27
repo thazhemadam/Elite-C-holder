@@ -1,24 +1,61 @@
-# VIK MCU Holder
+# splinterface
 
-Universal holder PCB for RP2040 MCUs with a pro-micro footprint and nice!nanos.
+splinterface is an MCU holder, intended for use in both standalone and split builds.
 
-![holder](assets/old.png)
+## MCU Support
 
-## Optional features
+The following footprints are supported by the holder.
 
-- handedness resistor: 5.1k on R6, use pin F1
-- I2C: install 4.7k resistors on R2 and R4
-- on/off switch: use MSK-12C01-07
+* [Elite-C footprint](https://deskthority.net/wiki/Elite-C)
+* [nice!nano footprint](https://nicekeyboards.com/docs/nice-nano/pinout-schematic/#pinout)
+* [Supermini nrf52840 footprint](https://github.com/joric/nrfmicro/wiki/Alternatives#supermini-nrf52840)
 
-## Forks
+## Features
 
-[Holiot carrier](https://github.com/vattern/holiot-carrier) for bluetooth
+* [VIK](https://github.com/sadekbaroudi/vik) compliant
+* Support for wireless and wired builds (see an example compatibility matrix [below](#compatibility-matrix-with-bastardkb-boards))
+* Full-duplex communications support
+* Dedicated pin for handedness (optional)
+* Dedicated pin for RGB (optional)
+* Criss-crossable pins for serial communication
 
-[Splinktegrated](https://github.com/bastardkb/splinktegrated) - Integrated rp2040 and usb-c daughterboard 
+### Wired Builds
 
-[Blackpill holder](https://github.com/Bastardkb/adapter-blackpill/)
+* TRRS jack for split communications
+* USBLC6-2P6 for ESD protection
 
-[Nice!nano holder](https://github.com/victorlucachi/Elite-C-holder)
+### Wireless Builds
+
+* JST-PH connector for connecting a battery
+* EG1271 Slide Switches for power switch
+
+## Compatibility Matrix with BastardKB Boards
+
+|                | RGB | Wireless | RGB + Wireless |
+|----------------|:---:|:--------:|:--------------:|
+| Skeletyl       | ✅   | ✅        | ✅            |
+| Charybdis Nano | ✅   | ✅        | ✅            |
+| TBK Mini       | ✅   | ✅        | ✅            |
+| Charybdis Mini | ✅   | ✅        | ✅            |
+| Scylla         | ✅   | ✅        | ❕            |
+| Charybdis      | ✅   | ✅        | ❕            |
+
+* Ribbon cable pinout (for the key matrix) compatible with BastardKB's [Dactyl](https://bastardkb.com/dactyls/) and [Charybdis](https://bastardkb.com/charybdis/) series' PCBs.
+* Mounting holes are compatible with BastardKB's [Dactyl](https://bastardkb.com/dactyls/) and [Charybdis](https://bastardkb.com/charybdis/) series' cases.
+
+## VIK Certification Card
+
+| Category                | Response           |
+| ----------------------- |:------------------:|
+| FPC connector           | ✅                 |
+| Breakout pins           | ❌                 |
+| Supplies: SPI           | ✅                 |
+| Supplies: I2C           | ✅                 |
+| I2C on main PCB         | ❌                 |
+| I2C pull ups            | N/A                |
+| Supplies: RGB           | ✅                 |
+| Supplies: Extra GPIO 1  | Analog/Digital     |
+| Supplies: Extra GPIO 2  | Analog/Digital     |
 
 ## License
 
