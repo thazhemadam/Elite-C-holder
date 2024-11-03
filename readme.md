@@ -31,14 +31,14 @@ The following footprints are supported by the holder.
 
 ## Compatibility Matrix with BastardKB Boards
 
-|                | RGB | Wireless | RGB + Wireless |
-|----------------|:---:|:--------:|:--------------:|
-| Skeletyl       | ✅   | ✅        | ✅            |
-| Charybdis Nano | ✅   | ✅        | ✅            |
-| TBK Mini       | ✅   | ✅        | ✅            |
-| Charybdis Mini | ✅   | ✅        | ✅            |
-| Scylla         | ✅   | ✅        | ❕            |
-| Charybdis      | ✅   | ✅        | ❕            |
+|                | RGB | Wireless | RGB + Wireless [^1] |
+|----------------|:---:|:--------:|:-------------------:|
+| Skeletyl       | ✅   | ✅        | ✅                 |
+| Charybdis Nano | ✅   | ✅        | ✅                 |
+| TBK Mini       | ✅   | ✅ [^2]   | ✅ [^2][^3]        |
+| Charybdis Mini | ✅   | ✅ [^2]   | ✅ [^2][^3]        |
+| Scylla         | ✅   | ✅ [^3]   | ❌                 |
+| Charybdis      | ✅   | ✅ [^3]   | ❌                 |
 
 * Ribbon cable pinout (for the key matrix) compatible with BastardKB's [Dactyl](https://bastardkb.com/dactyls/) and [Charybdis](https://bastardkb.com/charybdis/) series' PCBs.
 * Mounting holes are compatible with BastardKB's [Dactyl](https://bastardkb.com/dactyls/) and [Charybdis](https://bastardkb.com/charybdis/) series' cases.
@@ -60,3 +60,7 @@ The following footprints are supported by the holder.
 ## License
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+[^1]: Do you even really want to have RGB with a wireless build? Do you, *really*? For obvious battery-related reasons, this is not a recommended build configuration.
+[^2]: Requires the `RGB_OR_WL_COL` jumper to be manually soldered appropriately.
+[^3]: Requires the `split_hand_or_row` jumper to be manually soldered appropriately. This will reappropriate the dedicated handedness pin. In this case, the handedness will have to be defined in the firmware.
