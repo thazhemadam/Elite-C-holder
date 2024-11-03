@@ -7401,7 +7401,7 @@
 			)
 		)
 	)
-	(global_label "serial_l"
+	(global_label "RX_L"
 		(shape input)
 		(at 355.6 148.59 270)
 		(effects
@@ -7502,7 +7502,7 @@
 			)
 		)
 	)
-	(global_label "serial_r"
+	(global_label "RX_R"
 		(shape input)
 		(at 26.67 208.28 180)
 		(effects
@@ -9892,7 +9892,7 @@
 			)
 		)
 	)
-	(global_label "serial_r"
+	(global_label "RX_R"
 		(shape input)
 		(at 156.21 148.59 270)
 		(effects
@@ -9933,7 +9933,7 @@
 			)
 		)
 	)
-	(global_label "serial_l"
+	(global_label "RX_L"
 		(shape input)
 		(at 278.13 208.28 0)
 		(effects
@@ -10176,7 +10176,7 @@
 			)
 		)
 	)
-	(global_label "serial_l"
+	(global_label "RX_L"
 		(shape input)
 		(at 226.06 208.28 180)
 		(effects
@@ -10872,7 +10872,7 @@
 			)
 		)
 	)
-	(global_label "serial_r"
+	(global_label "RX_R"
 		(shape input)
 		(at 78.74 208.28 0)
 		(effects
