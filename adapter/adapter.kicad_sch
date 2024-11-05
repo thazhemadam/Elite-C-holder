@@ -11825,7 +11825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vik:vik-keyboard-connector-horizontal"
+		(property "Footprint" "library:vik-keyboard-connector-horizontal"
 			(at 321.31 220.98 0)
 			(effects
 				(font
@@ -14416,7 +14416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vik:vik-keyboard-connector-horizontal"
+		(property "Footprint" "library:vik-keyboard-connector-horizontal"
 			(at 121.92 220.98 0)
 			(effects
 				(font
