@@ -27522,6 +27522,18 @@
 			)
 		)
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 118.05 100 270)
+		(layer "F.SilkS")
+		(uuid "055d3be5-4b6c-4b48-ae7f-8b832c378a38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify top)
+		)
+	)
 	(gr_text "by Taz"
 		(at 128.390729 106.137934 0)
 		(layer "F.SilkS")
@@ -27951,6 +27963,18 @@
 					(xy 179.909248 85.803239) (xy 179.909248 85.521871) (xy 178.674967 85.521871) (xy 178.674967 85.803239)
 				)
 			)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 172.147874 100 270)
+		(layer "F.SilkS")
+		(uuid "5c0fc4af-6f27-4dd0-83a7-f31faa256b14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify top)
 		)
 	)
 	(gr_text "VIK 5V"
